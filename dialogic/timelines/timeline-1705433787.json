@@ -1,0 +1,86 @@
+{
+	"events": [
+		{
+			"animation": "[Default]",
+			"animation_length": 0.1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1705433064.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1705433064.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hello, I am Garfield, bitch!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "THIS is a line of dialogue."
+		},
+		{
+			"character": "character-1705433064.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Do you acknowledge me?"
+		},
+		{
+			"choice": "Yes",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1705433064.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Then you're wise."
+		},
+		{
+			"choice": "No",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1705433064.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I guess you gotta die!"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1705433064.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Choices matter, y'all."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1705433787.json",
+		"name": "TestTimeline"
+	}
+}
