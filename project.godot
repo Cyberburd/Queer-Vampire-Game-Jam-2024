@@ -88,6 +88,11 @@ config/icon="res://icon.png"
 
 DialogueManager="*res://addons/dialogue_manager/dialogue_manager.gd"
 
+[display]
+
+window/size/width=1920
+window/size/height=1080
+
 [editor_plugins]
 
 enabled=PoolStringArray( "res://addons/dialogic/plugin.cfg" )
