@@ -80,7 +80,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="QueerVampires"
+config/name="Moonlight Desires"
 run/main_scene="res://Scenes/TestScene.tscn"
 config/icon="res://icon.png"
 
