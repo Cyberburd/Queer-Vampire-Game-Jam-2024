@@ -1,0 +1,361 @@
+{
+	"events": [
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Time: 04:05 AM\n2504, somewhere underground"
+		},
+		{
+			"background": "res://Backgrounds/bunker.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"We are under attack. Quick, prepare for battle! Presentations will have to wait!\""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Yes, ma'am!\""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Don't stand there! The beasts are close to our grounds! MOVE, MOVE MOVE!\""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Time: 04:10 AM\nAt the Bunker's Gate"
+		},
+		{
+			"animation": "slide_in_left.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Angry",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Everything is ready, Sir! The enemy is already in the battlefield. We're ready for your orders!\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": "\"Initiate a Tactical Manoeuvre!\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Second and Third row! You use the smoke cannon to create a distraction and lower visibility!"
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Use your senses to hear their heartbeats and smell their blood! Unit 9043, front row unit, distract the enemy, attack through the front!"
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Now go go go!\""
+		},
+		{
+			"emit_signal": "mini-game-2",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "\"The Attack is going through as planned...\""
+		},
+		{
+			"choice": "\"Initiate a Defensive Stance!\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Front Row, go for a defence line! Second and third row, attack from the sides, First row protect the Second and Third Row!\" "
+		},
+		{
+			"emit_signal": "mini-game-2",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "\"Things look like they are working out!\""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Sir, our reinforcements just arrived!\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "\"... Dante!\""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Happy",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "\"So what is the battle status?\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "\"My previous tactic showed to have been successful, General!\""
+		},
+		{
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "\"I see... but-"
+		},
+		{
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "Second and Third group, what is your status?\" "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"We are having some casualties, Sir! Awaiting further instructions.\""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"The enemy is stronger here. They are using some new technology that utilizes UV lighting! Awaiting for further instructions, Sir!\""
+		},
+		{
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "\"First row prepare for ambushing the enemy! Second ambush from the ending, third retreat. Over!\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Shocked",
+			"question": ""
+		},
+		{
+			"choice": "\"Wait!! You're sending my unit to die!!!\" ",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "\"The mortals are using UV technology, we don't have time to sit still. And if it was like the information you got, these are the people who stole our blood supplies. They need to be destroyed!\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Angry",
+			"question": ""
+		},
+		{
+			"choice": "\"They are still my team! I can't just watch them die!\" ",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"I'm fighting with them...\""
+		},
+		{
+			"choice": "\"Then, let me go! Let me go fight by their side!\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "\"What are you doing, Sir?\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "\"It's the only way to have a chance at winning this battle, we need those blood supplies!\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "\"My comrades are dying out there and you keep sending them to a suicide mission!!\" "
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "\"This can't be....\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "\"I'm going to fight with them...\nIf it's my destiny, I'll die in the battle field, but I'll fight with them!\""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"emit_signal": "mini-game-3",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "\"YOU CAN'T! I ORDER YOU TO STAY HERE!\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "...! I- I can't move..."
+		},
+		{
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "\"...\" "
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "\"...\" "
+		},
+		{
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "\"Sigh... I'm sorry, darling... You made me loose my composure... Can you forgive me...?\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "\"....\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "\"Never use your powers on me ever again!\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "\"I- I'm going to get some fresh air...\" "
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1707238186.json",
+		"name": "2-Bad Orders"
+	}
+}

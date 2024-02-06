@@ -1,0 +1,49 @@
+{
+	"color": "#ffffffff",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1707139047.json",
+	"mirror_portraits": false,
+	"name": "Gabriel",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://portraits/Human_ Gabriel/Gabriel Neutral.png"
+		},
+		{
+			"name": "Lust",
+			"path": "res://portraits/Human_ Gabriel/Gabriel Lust.png"
+		},
+		{
+			"name": "Happy",
+			"path": "res://portraits/Human_ Gabriel/Gabriel Happy.png"
+		},
+		{
+			"name": "Evil",
+			"path": "res://portraits/Human_ Gabriel/Gabriel Evil.png"
+		},
+		{
+			"name": "Angry",
+			"path": "res://portraits/Human_ Gabriel/Gabriel Angry.png"
+		},
+		{
+			"name": "Sad",
+			"path": "res://portraits/Human_ Gabriel/Gabriel Sad.png"
+		},
+		{
+			"name": "Shocked",
+			"path": "res://portraits/Human_ Gabriel/Gabriel Shocked.png"
+		},
+		{
+			"name": "Silhouette",
+			"path": "res://portraits/Human_ Gabriel/Gabriel Silhouette.png"
+		}
+	],
+	"scale": 50,
+	"theme": ""
+}

@@ -76,6 +76,10 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Choices matter, y'all."
+		},
+		{
+			"change_timeline": "timeline-1705433787.json",
+			"event_id": "dialogic_020"
 		}
 	],
 	"metadata": {

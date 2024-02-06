@@ -1,0 +1,45 @@
+{
+	"color": "#ffffffff",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1707139107.json",
+	"mirror_portraits": false,
+	"name": "Dante",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://portraits/Vampire_ Dante/Dante Neutral.png"
+		},
+		{
+			"name": "Angry",
+			"path": "res://portraits/Vampire_ Dante/Dante Angry.png"
+		},
+		{
+			"name": "Happy",
+			"path": "res://portraits/Vampire_ Dante/Dante Happy.png"
+		},
+		{
+			"name": "Mad",
+			"path": "res://portraits/Vampire_ Dante/Dante Mad.png"
+		},
+		{
+			"name": "Sad",
+			"path": "res://portraits/Vampire_ Dante/Dante Sad.png"
+		},
+		{
+			"name": "Shocked",
+			"path": "res://portraits/Vampire_ Dante/Dante Shocked.png"
+		},
+		{
+			"name": "Silhouette",
+			"path": "res://portraits/Vampire_ Dante/Dante Silhouette.png"
+		}
+	],
+	"scale": 50,
+	"theme": ""
+}

@@ -1,0 +1,308 @@
+{
+	"events": [
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Time: 03:55 AM\n2504, somewhere around No man's land"
+		},
+		{
+			"background": "res://Backgrounds/war_field.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Unit Alfa to Major General. We have your last location, approaching the Bunker 666705. Over!\""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"background": "res://Backgrounds/vampire_base.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"We have to inform the Commander!\""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"On it sir!\""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"animation": "slide_in_right.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Angry",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": "WE ARE GOING TO WAR",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Silhouette",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"General Von Dracula, the time has come!\""
+		},
+		{
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Understood! Your strategy is as planned. I'm confident we can proceed!\""
+		},
+		{
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "\"And thank you for letting me know directly...\nI know I can always count on you, Nathalian...\""
+		},
+		{
+			"choice": "CALL EVERYONE!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Call the Chief's cabinet to inform him\n that we are are going to battle, right now!\""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " \"Sir, we've reached our location!\nThe proceeding action is as planned.\""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Silhouette",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Understood! I'm confident in Commander Bloodmoon's plan.\""
+		},
+		{
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "\"However... Pass the transmitter to the commander!\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Yes, General Von Dracula! Are there any issues with my orders?\""
+		},
+		{
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "\"There's an issue, yes... Why didn't you informed me directly, my dear?\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shy",
+			"text": "\"Uh- Sir, what- what do you mean by that?\nThese aren't work matters...\""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shy",
+			"text": "..."
+		},
+		{
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "\"Oh, relax... You know you don't have to be this uptight \nwhile addressing me. I missed your voice!\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Dante...\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "\"Stop messing around!\nIt's not the time for this!\""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Chief! Your presence is required!\""
+		},
+		{
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "\"...! That's my call!\""
+		},
+		{
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "\"I have to go, Nathalian. My soldiers are waiting, I'll see you in the battlefield!\""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": "It's time for battle!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"emit_signal": "mini-game-1",
+			"event_id": "dialogic_040"
+		},
+		{
+			"change_timeline": "timeline-1707238186.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1707139261.json",
+		"name": "1-Radio Transmission"
+	}
+}

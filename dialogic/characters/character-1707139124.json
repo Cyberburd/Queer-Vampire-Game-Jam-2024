@@ -1,0 +1,49 @@
+{
+	"color": "#ffffffff",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1707139124.json",
+	"mirror_portraits": false,
+	"name": "Nathalian ",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://portraits/MC_ Nathalian/Nathalian Neutral.png"
+		},
+		{
+			"name": "Happy",
+			"path": "res://portraits/MC_ Nathalian/Nathalian Happy.png"
+		},
+		{
+			"name": "Evil",
+			"path": "res://portraits/MC_ Nathalian/Nathalian Evil.png"
+		},
+		{
+			"name": "Angry",
+			"path": "res://portraits/MC_ Nathalian/Nathalian Angry.png"
+		},
+		{
+			"name": "Shocked",
+			"path": "res://portraits/MC_ Nathalian/Nathalian Shocked.png"
+		},
+		{
+			"name": "Shy",
+			"path": "res://portraits/MC_ Nathalian/Nathalian Shy.png"
+		},
+		{
+			"name": "Silhouette",
+			"path": "res://portraits/MC_ Nathalian/Nathalian Silhouette.png"
+		},
+		{
+			"name": "Worried",
+			"path": "res://portraits/MC_ Nathalian/Nathalian Worried.png"
+		}
+	],
+	"scale": 50,
+	"theme": ""
+}
