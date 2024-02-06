@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/maze1.mp3-7b14367067bc7ee402c3ba73847c0390.mp3str"
+
+[deps]
+
+source_file="res://Sound/Music/maze1.mp3"
+dest_files=[ "res://.import/maze1.mp3-7b14367067bc7ee402c3ba73847c0390.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
