@@ -4,7 +4,7 @@
 [ext_resource path="res://Walls/Block.tres" type="TileSet" id=2]
 [ext_resource path="res://Walls/Wall2.tres" type="TileSet" id=3]
 [ext_resource path="res://Labels/start.tscn" type="PackedScene" id=4]
-[ext_resource path="res://end.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Labels/end.tscn" type="PackedScene" id=5]
 
 [node name="Level1" type="Node2D"]
 
