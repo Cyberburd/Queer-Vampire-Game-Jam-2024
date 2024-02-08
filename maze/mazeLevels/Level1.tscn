@@ -80,10 +80,10 @@ text = "Lives: "
 
 [node name="Controls" parent="." instance=ExtResource( 4 )]
 material = SubResource( 3 )
-margin_left = 84.0
-margin_top = 434.0
-margin_right = 295.0
-margin_bottom = 640.0
+margin_left = 86.0
+margin_top = 249.0
+margin_right = 297.0
+margin_bottom = 455.0
 rect_scale = Vector2( 1, 1 )
 text = "Move Down
 
@@ -103,10 +103,10 @@ text = "Move Right (Right Arrow Key)"
 
 [node name="Controls3" parent="." instance=ExtResource( 4 )]
 material = SubResource( 3 )
-margin_left = 339.0
-margin_top = 303.0
-margin_right = 550.0
-margin_bottom = 509.0
+margin_left = 342.0
+margin_top = 549.0
+margin_right = 553.0
+margin_bottom = 755.0
 rect_scale = Vector2( 1, 1 )
 text = "Move Up
 
