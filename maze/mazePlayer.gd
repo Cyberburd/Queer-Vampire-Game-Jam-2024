@@ -2,6 +2,7 @@ extends KinematicBody2D
 
 var speed = 280
 var audio_player
+var lives_remaining = 3
 
 func _ready():
 	# Create an instance of AudioStreamPlayer
@@ -29,3 +30,19 @@ func _physics_process(delta):
 		audio_player.play()
 	velocity = velocity.normalized()
 	move_and_slide(velocity * speed)
+
+func _on_Body_entered(body):
+	# Check if the body entered is a bomb
+	if body.name == "Bomb":
+		# Remove one life from the player
+		remove_life_from_player()
+
+func remove_life_from_player():
+	# Check if player has remaining lives
+	if lives_remaining > 0:
+		# Reduce one life
+		lives_remaining -= 1
+		# You can implement further logic here, such as updating UI to reflect lives remaining
+	else:
+		# Game Over logic can be implemented here
+		pass
