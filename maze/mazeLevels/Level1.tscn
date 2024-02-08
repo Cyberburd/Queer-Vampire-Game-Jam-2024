@@ -27,13 +27,13 @@
 0/shapes = [  ]
 0/z_index = 0
 
-[sub_resource type="ShaderMaterial" id=1]
+[sub_resource type="ShaderMaterial" id=5]
 
-[sub_resource type="Shader" id=2]
+[sub_resource type="Shader" id=6]
 
 [sub_resource type="ShaderMaterial" id=3]
-next_pass = SubResource( 1 )
-shader = SubResource( 2 )
+next_pass = SubResource( 5 )
+shader = SubResource( 6 )
 
 [node name="Level1" type="Node2D"]
 
@@ -42,7 +42,7 @@ tile_set = ExtResource( 2 )
 cell_size = Vector2( 8, 8 )
 cell_quadrant_size = 8
 format = 1
-tile_data = PoolIntArray( 851965, 0, 0, 1114109, 0, 0, 1376253, 0, 0, 1638397, 0, 0, 4980975, 0, 0, 5243119, 0, 0, 5505263, 0, 0, 5767407, 0, 0, 7602264, 0, 0, 7602265, 0, 0, 7602268, 0, 0, 7602272, 0, 0, 7602276, 0, 0, 7602280, 0, 0, 7602284, 0, 0, 7602288, 0, 0, 7667801, 0, 0 )
+tile_data = PoolIntArray( 851965, 0, 0, 917555, 0, 0, 983091, 0, 0, 1114109, 0, 0, 1048627, 0, 0, 1114164, 0, 0, 1179700, 0, 0, 1245236, 0, 0, 1376253, 0, 0, 1310772, 0, 0, 1376308, 0, 0, 1441844, 0, 0, 1507381, 0, 0, 1638397, 0, 0, 1572917, 0, 0, 1638453, 0, 0, 4980975, 0, 0, 5243119, 0, 0, 5505263, 0, 0, 5767407, 0, 0, 7602264, 0, 0, 7602265, 0, 0, 7602268, 0, 0, 7602272, 0, 0, 7602276, 0, 0, 7602280, 0, 0, 7602284, 0, 0, 7602288, 0, 0, 7667801, 0, 0 )
 
 [node name="TileMap2" type="TileMap" parent="."]
 tile_set = ExtResource( 1 )
