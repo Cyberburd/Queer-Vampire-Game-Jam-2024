@@ -28,13 +28,13 @@
 0/shapes = [  ]
 0/z_index = 0
 
-[sub_resource type="ShaderMaterial" id=1]
+[sub_resource type="ShaderMaterial" id=5]
 
-[sub_resource type="Shader" id=2]
+[sub_resource type="Shader" id=6]
 
 [sub_resource type="ShaderMaterial" id=4]
-next_pass = SubResource( 1 )
-shader = SubResource( 2 )
+next_pass = SubResource( 5 )
+shader = SubResource( 6 )
 
 [node name="Level6" type="Node2D"]
 
