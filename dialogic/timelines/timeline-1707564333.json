@@ -1,0 +1,389 @@
+{
+	"events": [
+		{
+			"background": "res://Backgrounds/black_screen.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"background": "res://Backgrounds/bunker_prison.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "Evil",
+			"text": "\"You know, even though you are a Monster you sleep like a sweet angel... Your face isn't bad ether for a Demonic Parasite...\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": "\"Oh, such charming words...\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"animation_wait": false,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Evil",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"choice": "\"Grrr...\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Angry",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "Evil",
+			"text": "\"Ahah! You're just funny to mess with!\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "\"So what are we doing today?... Playing more of your little games?\""
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Sure! Let's do that!\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Angry",
+			"question": ""
+		},
+		{
+			"choice": "\" You must be an idiot of you think i'll answer any of your questions!\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "\"You, humans, sure are a maniacs...\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "Evil",
+			"text": "\"So, what is your greatest fear?\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "\"Do you think you will be able to break me?...\" "
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"No, don't worry... I'm just having a little fun!\""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "\"...\""
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "Evil",
+			"text": "\"Aww... The little prisoner is hungry?...\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": "\"Just forget it! It was nothing!\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Shy",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"choice": "\"SHUT UP!!\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Angry",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "Evil",
+			"text": "\"I have a surprise for you! This is a 1973 O- reserve. Rested for 30 minutes after the bottle was opened...-\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "\"STOP! Take that away from me, I wont accept anything from you!\""
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "\"Okay, if you don't want it that's fine, I will just leave it there... So tell me, Commander, what brought you here?\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "\"What you mean what brought me here? You did! You caught me and looked me up! You...\""
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "\"- No. What brought you and your soldiers to attack this exact location?\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Why should I tell you that?\""
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "\"That's okay...\""
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Let's see if tomorrow you want to talk a bit more...\""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "\"I'm so hungry... I'm getting weak...\""
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1707564333.json",
+		"name": "5-Jail part 2"
+	}
+}
