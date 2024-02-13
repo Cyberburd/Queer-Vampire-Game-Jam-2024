@@ -1,8 +1,9 @@
 extends KinematicBody2D
 
-var speed = 280
+var movement_speed = 280
 var audio_player
-var lives_remaining = 3
+onready var animation = $Sprite
+var is_moving = false
 
 func _ready():
 	# Create an instance of AudioStreamPlayer
@@ -16,33 +17,37 @@ func _ready():
 
 func _physics_process(delta):
 	var velocity = Vector2()
-	audio_player.stop()
+
 	if Input.is_action_pressed("ui_right"):
 		velocity.x = 1
-		audio_player.play()
-	if Input.is_action_pressed("ui_left"):
+		animation.play("right")
+		is_moving = true
+	elif Input.is_action_pressed("ui_left"):
 		velocity.x = -1
-		audio_player.play()
-	if Input.is_action_pressed("ui_up"):
+		animation.play("left")
+		is_moving = true
+	elif Input.is_action_pressed("ui_up"):
 		velocity.y = -1
-	if Input.is_action_pressed("ui_down"):
+		animation.play("up")
+		is_moving = true
+	elif Input.is_action_pressed("ui_down"):
 		velocity.y = 1
-		audio_player.play()
-	velocity = velocity.normalized()
-	move_and_slide(velocity * speed)
-
-func _on_Body_entered(body):
-	# Check if the body entered is a bomb
-	if body.name == "Bomb":
-		# Remove one life from the player
-		remove_life_from_player()
-
-func remove_life_from_player():
-	# Check if player has remaining lives
-	if lives_remaining > 0:
-		# Reduce one life
-		lives_remaining -= 1
-		# You can implement further logic here, such as updating UI to reflect lives remaining
+		animation.play("down")
+		is_moving = true
 	else:
-		# Game Over logic can be implemented here
-		pass
+		is_moving = false
+
+	if is_moving:
+		# Normalize velocity if moving diagonally
+		if velocity.length_squared() > 0:
+			velocity = velocity.normalized()
+		# Play audio only if player is moving and audio is not already playing
+		if not audio_player.is_playing():
+			audio_player.play()
+	else:
+		# If no movement keys are pressed, play the neutral animation
+		animation.play("neutral")
+		# Stop audio if player is not moving
+		audio_player.stop()
+
+	move_and_slide(velocity * movement_speed)

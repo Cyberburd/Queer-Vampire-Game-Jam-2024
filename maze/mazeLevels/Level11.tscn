@@ -169,7 +169,7 @@ position = Vector2( 297, 822 )
 position = Vector2( 533, 750 )
 
 [node name="Bomb14" parent="." instance=ExtResource( 10 )]
-position = Vector2( 605, 834 )
+position = Vector2( 614, 811 )
 
 [node name="Bomb15" parent="." instance=ExtResource( 10 )]
 position = Vector2( 949, 472 )
