@@ -1,8 +1,9 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://Fonts/RIKY2vamp.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://Scripts/CreditsScene.gd" type="Script" id=2]
 [ext_resource path="res://Themes/ButtonTheme.tres" type="Theme" id=3]
+[ext_resource path="res://Sound/Music/Lord Neculai the Lonely Vampire.ogg" type="AudioStream" id=4]
 
 [sub_resource type="DynamicFont" id=1]
 size = 173
@@ -211,6 +212,10 @@ size_flags_vertical = 3
 theme = ExtResource( 3 )
 custom_fonts/font = SubResource( 3 )
 text = "Exit Game"
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 4 )
+autoplay = true
 
 [connection signal="button_up" from="MarginContainer/VBoxContainer/VBoxContainer/HBoxContainer/MarginContainer/ReturnToTitleButton" to="." method="_on_ReturnToTitleButton_button_up"]
 [connection signal="button_up" from="MarginContainer/VBoxContainer/VBoxContainer/HBoxContainer/MarginContainer2/ExitGameButton" to="." method="_on_ExitGameButton_button_up"]
