@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/High Society Waltz.ogg-32b9455ad68c06d67b440e601d0d363d.oggstr"
+
+[deps]
+
+source_file="res://Sound/Music/High Society Waltz.ogg"
+dest_files=[ "res://.import/High Society Waltz.ogg-32b9455ad68c06d67b440e601d0d363d.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

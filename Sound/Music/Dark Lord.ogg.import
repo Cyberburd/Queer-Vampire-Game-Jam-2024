@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Dark Lord.ogg-59bbb66914ade5c8dbbbd17b8177e356.oggstr"
+
+[deps]
+
+source_file="res://Sound/Music/Dark Lord.ogg"
+dest_files=[ "res://.import/Dark Lord.ogg-59bbb66914ade5c8dbbbd17b8177e356.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

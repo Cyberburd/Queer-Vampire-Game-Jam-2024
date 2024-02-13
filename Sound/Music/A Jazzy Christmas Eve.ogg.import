@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/A Jazzy Christmas Eve.ogg-e9cc73c19ff4b2df9df48d7e5a4bac9c.oggstr"
+
+[deps]
+
+source_file="res://Sound/Music/A Jazzy Christmas Eve.ogg"
+dest_files=[ "res://.import/A Jazzy Christmas Eve.ogg-e9cc73c19ff4b2df9df48d7e5a4bac9c.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

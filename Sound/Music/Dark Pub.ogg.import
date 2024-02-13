@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Dark Pub.ogg-7df88447679eb7c9bdace92577c278a8.oggstr"
+
+[deps]
+
+source_file="res://Sound/Music/Dark Pub.ogg"
+dest_files=[ "res://.import/Dark Pub.ogg-7df88447679eb7c9bdace92577c278a8.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

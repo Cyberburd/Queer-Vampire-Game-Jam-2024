@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Neculai's Shadows.ogg-0fb3e953e6ef73e078ca8507c29ec9f2.oggstr"
+
+[deps]
+
+source_file="res://Sound/Music/Neculai's Shadows.ogg"
+dest_files=[ "res://.import/Neculai's Shadows.ogg-0fb3e953e6ef73e078ca8507c29ec9f2.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

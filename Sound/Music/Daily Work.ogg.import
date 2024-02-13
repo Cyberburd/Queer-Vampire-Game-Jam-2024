@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Daily Work.ogg-e96a150c7dd34cac0860b04a162a636f.oggstr"
+
+[deps]
+
+source_file="res://Sound/Music/Daily Work.ogg"
+dest_files=[ "res://.import/Daily Work.ogg-e96a150c7dd34cac0860b04a162a636f.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

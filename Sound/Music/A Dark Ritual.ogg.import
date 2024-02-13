@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/A Dark Ritual.ogg-44fc8b218fb6871acb324f6203df12e3.oggstr"
+
+[deps]
+
+source_file="res://Sound/Music/A Dark Ritual.ogg"
+dest_files=[ "res://.import/A Dark Ritual.ogg-44fc8b218fb6871acb324f6203df12e3.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
