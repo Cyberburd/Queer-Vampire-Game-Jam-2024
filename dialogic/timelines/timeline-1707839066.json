@@ -1,0 +1,622 @@
+{
+	"events": [
+		{
+			"background": "res://Backgrounds/black_screen.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"background": "res://Backgrounds/bunker_prison.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Worried",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Another day...for how long are they going to keep me here... Will Dante be able to come save me... He must be furious...\""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"...\""
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"You sure put on a show last time... And yet, I can't leave this sensation inside me  where something was off, something has changed and I don't know what it is now... Weird, it's... Like I need you to feed from me?\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": "\"...\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "\"You have been feeling...differently?\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "Lust",
+			"text": "\"I don't know...it feels itchy, the place you bitten me... So tell me now, what's going on with me?\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": "\"You...hmm... You don't know...\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "\"I don't think it's a good idea...I can't... No...\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"What can't you say?\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "\"I- I lost control...and because of that, I poisoned you... I am sorry, it wasn't intentional! My system was deprived of food and I was weak... It's a defense mechanism-\""
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "\"Poison?!\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"...I...I am...I am sorry... I swear-\""
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "\"I can't stand this anymore. Please, it's really getting hard to control myself... Please, just do it! Just bite me!\""
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "\"He's... he's kissing m-\""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"background": "res://Backgrounds/prison_kiss.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": "\"Ahhh... It tastes so good...\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "\"His blood... Hmm...\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "\"More... I want more, it's so sweet...ahh-\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Huff...huu...It feels so good... I can't hold it anymore...\""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"background": "res://Backgrounds/bunker_prison.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Shy",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"... what has come over me?... But- but somehow, it felt so right\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"I hope you don't regret all of this when you wake up... Gabriel...\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "\"It's my chance now!\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": "\"But I need to help him...\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Worried",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Ah! Maybe I can ask for help in the intercomunicador he had...\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"H- Hello...I need some help here, at the prison...!\""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Who is this, over.\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Please, it's important!\""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"... I'm on my way, over.\""
+		},
+		{
+			"choice": "\"I gotta leave this place!\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Angry",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"background": "res://Backgrounds/bunker.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "\"Wait... but he needs help...\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "\"Hello? Ahmm... H- hello? Someone?\""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Don't step any closer!\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "\"I'm just trying to help...\""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"How did you escape the prison cell?\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "\"I need some bandages and some water, please... I'm not trying to do any harm to anyone!\""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"What happened? Tell me everything that happened!\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "\"I need to help him now... Please! I will go back to the prison cell... Just please, get me the stuff!\""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Go to the cell... I'll bring you the stuff but we're all keeping watch now... You better go where Major Andersen really is...\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"I'll go back, just hurry...\""
+		},
+		{
+			"background": "res://Backgrounds/bunker_prison.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shy",
+			"text": "\"You're going to be okay... I'm here, I'll take care of you...\""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Here, that's what you asked for right? ...WHAT DID YOU DO TO HIM!!!\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "\"It was my fault… I lost control of my hunger… I accept all the punishment I’ll be subjected to. I am ready even for my own death, but please hold down this message for me in the radio transmitter...\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "\"Dante, I won't able to leave the human's bunker... Please don’t come back to save me, it's not worth the risk. I’ll be fine, take care of everyone and don’t forget about me.”"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "When Major Andersen is better, he will define your fate. After all, you are his science project… We are all on watch, if you lay one more finger on Major I’ll come and kill you. "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "So now, take care of him... I know only vampires can cure someone of their own venom.\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "\"How do you know that?\""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"My sister was turned into one of your kind, filthy blood suckers... I swore to her that I wouldn't let any vampire transform any human to one of their own ever again…\""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"I promise her when I killed her with my own hands… she was already far gone… So I’ll do the same to you if you  touch Gabriel one more time!\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "\"…\""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Lust",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "Lust",
+			"text": "\"Hu…uh…Please do something, it’s hot…\" "
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "\"I need to take the poison out of your system! The only way I can do that it’s through a ritual and if I don’t do it until sunrise you'll become like this forever. So please, help me!\""
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "Lust",
+			"text": "\"No, please... It’s hot, I want you…I want your bite...\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "\"... He won't listen at his state... But I have to do this!\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "\"With the moon that shines bright and the darkness that involves a pot of gold. The bite of the devil and the bite of the angel will rejoin."
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "\"The sky above will fall and the stars will sing for those in need. To those that need to be saved from the  devils wicked ways...\""
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1707839066.json",
+		"name": "7-Fever King"
+	}
+}

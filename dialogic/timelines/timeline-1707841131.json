@@ -1,0 +1,502 @@
+{
+	"events": [
+		{
+			"background": "res://Backgrounds/bunker_prison.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Worried",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"...\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Are you ok? How are you feeling?\""
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Like I was hit by a train...\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shy",
+			"text": "\"How about... Your desire...?\""
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "\"What do you mean? Desire...? What happened to me?"
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"...When a vampire bites a human, our fangs develop an aphrodisiac to turn the human's pain into pleasure so we can feed on them...\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"But when a vampire runs out of control, everything it sees is red and the thirst becomes uncontrollable-\""
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"So I was under your spell?! How did I get out?\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "\"I did a ritual to make the poison leave your blood... You should be feeling okay now.\""
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "\"When I was young I never thought I would be side by side in the same room as a vampire... And when I was torturing them, I never really had a conversation with any.\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": "\"...\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "\"Well, actually I-\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Talking to you like this... I never imangined it'd be this natural... Somehow, it feels safe...\" "
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "\"And I never thought I would feel Human again...\""
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"What do you mean?\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Worried",
+			"question": ""
+		},
+		{
+			"choice": "\"He should know...\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "\"I probably shouldn't tell him...\" ",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Please, tell me... I feel like I should know...\""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"I...I wasn't born a vampire. Vampires have ranks, you see... All pure vampires are born with golden eyes, that's how you can tell...\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"All of others that are red eyed were human before. I was Human before I truned into a monster...\""
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "\"So... When? For how long have you been-\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"It's been centuries, the last time I went out to eat in a restaurant was 438 years ago...the last time I felt like a human being was almost 500 years ago...the last time I felt alive-\""
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "\"My parents were killed in a Vampire attack when I was a kid. I have always hated your species. I hated them so much... I hated that I was left all alone because of your people.\""
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "\"I hated that the last thing I remember from then was seeing my mom's blood being sucked out of her.\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "\"I am sorry...\""
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "\"...... You don't have to apologise... You weren't the one that killed them... I have to go now...\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "\"Wait! What do I do now?\""
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "\"Whatever you want... Stay? Go? It's your choice...You are welcomed to stay here if you want protection... I actually don't want anything bad happening to you, so I hope you can stay.\""
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "\"It feels like not even your own kind care enough for you. Well then...\""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shy",
+			"text": "\"...\""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "[color=#EA1F5C]What will you do?[/color]"
+		},
+		{
+			"choice": "\"I think I still have to go back...\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "going away"
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "\"I just don't belong here...\""
+		},
+		{
+			"background": "res://Backgrounds/no_mans_land.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"I'm out!\""
+		},
+		{
+			"change_timeline": "timeline-1707842283.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "\"No. I must stay!\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": " \"Gabriel, wait!\""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Angry",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"What do you want?\" "
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " I want to help you! I want to be there for you!\""
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "\"Do you understand your situation? By staying you're going to be a traitor to your own kingdom! You won't have a place to call home... You'll become a stranger to all of them...\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": "\"I won't be a stranger to you!\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "\"I...\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "\"Just leave if you don't have anything to say...\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": "\"I think I still have to go back...\" ",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "\"I won't leave... I will fight this fight with you!\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Angry",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "\"Nathalian, I- ... This wont be easy, but I'm glad to have you on board...\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Evil",
+			"text": "\"I'm ready for anything! Now what's the plan?\""
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1707841131.json",
+		"name": "8-Hangover"
+	}
+}
