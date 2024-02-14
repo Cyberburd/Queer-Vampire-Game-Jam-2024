@@ -33,6 +33,8 @@ func _on_Bomb_body_entered(body):
 		animation.play("explosion")
 		# Play explosion sound
 		audio_player.play()
+		#take life 
+		body.ouch(position.x)
 		# Start the timer to wait for 1 second before freeing the bomb
 		explosion_timer.start()
 

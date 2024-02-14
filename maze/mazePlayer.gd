@@ -53,15 +53,24 @@ func _physics_process(delta):
 
 	move_and_slide(velocity * movement_speed)
 
-func _on_Player_screen_exited():
-	var current_level = int(get_tree().current_scene.name)
-	var next_level_path = "res://maze/mazeLevels/Level" + str(current_level + 1) + ".tscn"
-	print("Attempting to load next level:", next_level_path)
+func ouch(var enemyposx):
+	MazeGlobal.lose_life()
 	
-	if ResourceLoader.exists(next_level_path):
-		var result = get_tree().change_scene(next_level_path)
-		if result != OK:
-			print("Error loading next level:", next_level_path)
-			print("Error code:", result)
+func _on_Player_screen_exited():
+	# Check if the player has lives remaining
+	if MazeGlobal.lives > 0:
+		var current_level = int(get_tree().current_scene.name)
+		var next_level_path = "res://maze/mazeLevels/Level" + str(current_level + 1) + ".tscn"
+		print("reloaded lives")
+		MazeGlobal.lives = MazeGlobal.max_lives
+		print("Attempting to load next level:", next_level_path)
+		
+		if ResourceLoader.exists(next_level_path):
+			var result = get_tree().change_scene(next_level_path)
+			if result != OK:
+				print("Error loading next level:", next_level_path)
+				print("Error code:", result)
+		else:
+			print("Next level not found:", next_level_path)
 	else:
-		print("Next level not found:", next_level_path)
+		print("Player has no lives remaining. Next level will not be loaded.")
