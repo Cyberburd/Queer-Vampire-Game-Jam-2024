@@ -2,8 +2,9 @@ extends KinematicBody2D
 
 var movement_speed = 280
 var audio_player
-onready var animation = $Sprite
 var is_moving = false
+onready var animation = $Sprite
+signal life_changed(player_hearts)
 
 func _ready():
 	# Create an instance of AudioStreamPlayer
@@ -51,3 +52,16 @@ func _physics_process(delta):
 		audio_player.stop()
 
 	move_and_slide(velocity * movement_speed)
+
+func _on_Player_screen_exited():
+	var current_level = int(get_tree().current_scene.name)
+	var next_level_path = "res://maze/mazeLevels/Level" + str(current_level + 1) + ".tscn"
+	print("Attempting to load next level:", next_level_path)
+	
+	if ResourceLoader.exists(next_level_path):
+		var result = get_tree().change_scene(next_level_path)
+		if result != OK:
+			print("Error loading next level:", next_level_path)
+			print("Error code:", result)
+	else:
+		print("Next level not found:", next_level_path)

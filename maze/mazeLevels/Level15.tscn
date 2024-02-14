@@ -92,7 +92,7 @@ cell_size = Vector2( 8, 8 )
 cell_quadrant_size = 8
 show_collision = true
 format = 1
-tile_data = PoolIntArray( 4456687, 0, 0, 4718831, 0, 0, 4980975, 0, 0, 5243119, 0, 0, 5505263, 0, 0, 8126576, 0, 0, 8126580, 0, 0, 8126584, 0, 0, 8126588, 0, 0, 8126592, 0, 0, 8126596, 0, 0 )
+tile_data = PoolIntArray( 8126576, 0, 0, 8126580, 0, 0, 8126584, 0, 0, 8126588, 0, 0, 8126592, 0, 0, 8126596, 0, 0 )
 
 [node name="TileMap2" type="TileMap" parent="."]
 tile_set = SubResource( 8 )
@@ -169,6 +169,9 @@ position = Vector2( 1785, 613 )
 
 [node name="Bomb18" parent="." instance=ExtResource( 2 )]
 position = Vector2( 1783, 527 )
+
+[node name="Bomb28" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1732, 569 )
 
 [node name="Bomb17" parent="." instance=ExtResource( 2 )]
 position = Vector2( 1573, 531 )
