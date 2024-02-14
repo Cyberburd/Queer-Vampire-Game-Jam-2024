@@ -1,6 +1,606 @@
 {
 	"events": [
+		{
+			"background": "res://Backgrounds/vampire_base.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 1
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hey! That's our traitor! Are you finally back for punishment?"
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "\"I want to see General Von Dracula, Dante Von Dracula. I'll only speak to him.\" "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"You will not come into to contact to our leader, you traitor!\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_010",
+			"options": [
 
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": "\"You don't know half of the story!\" ",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Angry",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"choice": "\"...\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"You red-eyed blood sucker... Inside a human bunker for months and probably giving out our information... Why wouldn't you kill them all? We are the superior species and yet, you are denying yourself of your own nature!...\""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"In some months all the Humans will be only food for us, anyway... They will all be dead! Like all was intended... Like GOD intended!\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "\"JUST WHAT ARE YOU TALKING ABOUT!\" "
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "\"CALL THE GENERAL VON DRACULA RIGHT NOW!!! I'M COMMANDER  NATHALIAN BLOODMOON!\""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"background": "res://Backgrounds/dante's_room.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "\"I was so worried about you! Are you okay? Do you need something? Can I get you something to drink?...\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "\"Please, just tell me first what is happening...\""
+		},
+		{
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "\"Nathalian, what do you mean? Everything is perfect now that I have you here with me...\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "\"But what is going on? What was that all about... All humans being just a feeding bags to us? What is going to happen to them?\""
+		},
+		{
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "\"...\" "
+		},
+		{
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "\"My dear... That's just our ending goal! At this right moment there are a whole group of pure blooded vampires with their slaves making a spell to involve this world in complete darkness at last!\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "\"But- ... And what will be of us? What will it be of everything?\""
+		},
+		{
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "\"We will be together! Together for the whole eternity!\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "\"Us?\""
+		},
+		{
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Yes us! Nathalian, I want to be with you! I want to be with for all eternity! Just us! Just like when we met... And we started fighting together... Stay with me, please!\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": "\"Yes...\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Shy",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"choice": "\"Wait, no... What we're doing is wrong!\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Angry",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "\"Just us, for all eternity... Fighting together and living together! I can just make you forget about all the bad... like I did before!\" "
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "\"... But what about everything outside the War? The Humans... They aren't at fault. What about all of them?\""
+		},
+		{
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "\"You don't have to worry about a thing, Nathalian... You just have to be with me, you just have to think about me.\""
+		},
+		{
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "\"I'll do anything for you. I love you, ever since you made part of our kind... Ever since you became mine...\""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": "\"Will it all be alright?\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Worried",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"choice": "\"I'm all yours...\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Happy",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "\"... You just have to trust me, my dear...\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": "\"I- I don't know...\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Shy",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"choice": "\"I do...\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Happy",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "\"I will always proctect you, Nathalian! You don't have to worry...\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "\"But what do we do now?\""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"background": "res://Backgrounds/moonlight.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Do you see how bright the moonlight is... Soon, it's all this world will ever see... Humans won't resist a world without their abhorrent and warm sunlight.\""
+		},
+		{
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"So our superior kind will rule! And it'll become our forever, Nathalian... Just like how it was always meant to be.\""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"background": "res://Backgrounds/black_screen.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " [i]And so the world begins to crumble. The Human race is in the brink of extinction... The sun was destroyed by the darkness of the Moon..."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[i]The world is now enveloped forever in darkness, like a continuous long night... "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[i]As the eternal Moonlight Desire was absorbed into the hearts of those who loved and now fear. "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[i]For the last Fear is the only bond left to share. Now they shall shine forever, inside this darkness."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[center][b]The End"
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.5",

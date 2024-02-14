@@ -1,6 +1,767 @@
 {
 	"events": [
+		{
+			"background": "res://Backgrounds/bunker.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"\"Okay... This is what we know so far.\""
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Humans and Vampires have been in war for centuries, yet only a decade ago Vampires have actually been able to weakened our defences with a bargain...\""
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"They used Humanity's fear of dying to create bargains and conspirations, using blood as currency.\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"No one has ever informed me about this... So that means they are using humans as spys to get information and blood...\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Yet, the humans think they'll have the vampire's protection by working for them?\""
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "\"That's what we gathered, yes... My troops are from the special services and we are in charge of finding and eliminating all our conspirators.\""
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "\"Besides that, our spies on the exterior have been gathering some information that the temperatures of the sun has been decreasing, making it harder for us to adapt...\""
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "\"If this continues we, Humanity, will all die of a new ice age. The records we have state that The Vampire Kingdom is using some sort of magic spell that will destroy the sun...\""
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "\"and, once that happens, they'll be the only ones who survive! These blood suckers are making this world theirs and using us as a temporary pig farm...\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_010",
+			"options": [
 
+			],
+			"portrait": "Shocked",
+			"question": ""
+		},
+		{
+			"choice": "\"What? Are you sure?!\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "\"This can't be...\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Unfortunately, we have lots of living proof... Even in the middle of war, those beasts still made us believe that they wouldn't reach this far...\""
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"I'm sure they wanted to keep this all a secret amongst the higher ranks, so I think it's normal for a red-eyed like you to not know anything about it.\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "\"NO, IT CAN'T BE! HE WOULDN'T HIDE SOMETHING LIKE THIS FOR ME! HE KNOWS MY PAST... HE SAID HE LOVED ME! AND I LOVED HIM TOO! ALL THIS TIME I'VE BEEN ALWAYS BY HIS SIDE!\""
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "\"I'm sorry... I hope I can make up for all the terrible things he's been doing... And for betraying your trust like that...\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "\"I'll be your SPY!\" "
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "Evil",
+			"text": "\"I was hoping you would say that! I have a plan!\""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"emit_signal": "mini-games",
+			"event_id": "dialogic_040"
+		},
+		{
+			"background": "res://Backgrounds/dante's_room.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Finally... I just need to get my hands on any secret documents about this cult of darkness...\""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Angry",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"So you finally decided to show up! My little IMP.\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "\"Dante... I was waiting for you to save me... You never came to me. I thought I would never see you again!\" "
+		},
+		{
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "\"I thought you were dead... I sent my troops to look out for you, yet no one could find you... I received a telegram saying you were dead not long after you were captured. I thought I lost you...\""
+		},
+		{
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "\"But now you are in my arms again! Come to me now, Commander Nathalian Bloodmoon!\""
+		},
+		{
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "\"Remember how well we work together, my dear! We are destined to be together, together for the whole eternity!\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "\"B- But what about everything outside the war?... The Humans... They aren't at fault, what about all of them?\" "
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "\"You don't have to worry about a thing, Nathalian... You just have to be with me, you just have to think about me. I'll do anything for you. I love you, ever since you made part of our kind... Ever since you became mine...\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": "\"Will it all be alright?\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Worried",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"choice": "\"I'm all yours...\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Happy",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "\"... You just have to trust me, my dear...\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shy",
+			"text": "\"... What- ....What do we do now...?\""
+		},
+		{
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "\"Let's fight together like we've always done! Like how it is meant to be!\""
+		},
+		{
+			"emit_signal": "mind-control-game",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "\"THIS ISN'T RIGHT!\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "\"This is one of his illusions... He's trying to control me! I need a distraction...\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "\"Wait! Dante... I've just missed you so much... I would love for us to have a moment together, at last!\""
+		},
+		{
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "\"...\""
+		},
+		{
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "\"Oh...\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Angry",
+			"question": ""
+		},
+		{
+			"choice": "\"The drug Gabriel gave me will give me some time...\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "\"Won't you share a glass of O- with me... It's you favourite!\""
+		},
+		{
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "\"Of course, my dear... I've been worried sick thinking if I'll ever see you a-\""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "\"Nat- Nathalian...\""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"choice": "\"He wouldn't be able to resist me...\"",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shy",
+			"text": "\"Would you make me yours, General Von Dracula?\""
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"...\""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"background": "res://Backgrounds/black_screen.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"background": "res://Backgrounds/bed_cuddle.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Hmm... 'Missed you... I just love you so much, my dear Nathalian...\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"I know...\""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"background": "res://Backgrounds/black_screen.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"background": "res://Backgrounds/no_mans_land.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Worried",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Sigh... I managed to escape! I gathered all the secret information Gabriel told me was being held by this Kingdom's cult... But I can only imagine how Dante will feel when he wakes up...\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "\"Now, I must return to the bunker!\""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"emit_signal": "final-game",
+			"event_id": "dialogic_040"
+		},
+		{
+			"background": "res://Backgrounds/bunker.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "\"Gabriel!\""
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "\"You're back!\""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"I'm so glad you're back! I never doubted you for a second.\""
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Evil",
+			"text": "\"Here! You better pass this information to your Commander, as soon as possible!\""
+		},
+		{
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_001",
+			"portrait": "Evil",
+			"text": "\"Ah-ah! Everyone at base, spread the news! We won this battle!\""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "\"...\""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"background": "res://Backgrounds/white_screen.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[i]And so, the bright blood moon illuminated the skies, before another day of light took over. As the Vampires hid and the Humans recovered courage to fight again, these two hearts choose to fight together..."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[i]What they share is a bond deeper than blood... It's bond made of love. As the sky reached its darkest hour, their Moonlight Desire had permeated both of their minds and souls."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[i]Now, connected forever, with the pure thought that tomorrow the sun will rise again."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[b][center]The End"
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.5",
