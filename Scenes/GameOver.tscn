@@ -5,7 +5,7 @@
 [ext_resource path="res://Scenes/CreditsScene.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Scenes/DialogueScene1.tscn" type="PackedScene" id=4]
 [ext_resource path="res://Themes/ButtonTheme.tres" type="Theme" id=5]
-[ext_resource path="res://Sound/Music/A Dark Ritual.ogg" type="AudioStream" id=6]
+[ext_resource path="res://Sound/Music/gameOver.mp3" type="AudioStream" id=6]
 
 [sub_resource type="DynamicFont" id=1]
 size = 173
@@ -50,7 +50,7 @@ margin_bottom = 267.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_fonts/font = SubResource( 1 )
-text = "Moonlight Desires"
+text = "GAME OVER"
 align = 1
 valign = 1
 

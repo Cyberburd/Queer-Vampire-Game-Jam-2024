@@ -8,8 +8,9 @@ func _on_NewGameButton_button_up():
 	print("reloaded lives")
 	MazeGlobal.lives = MazeGlobal.max_lives
 
-func _on_CreditsButton_button_up():
+func _on_CreditsButton2_button_up():
 	get_tree().change_scene_to(FinalScene);
 
 func _on_ExitButton_button_up():
 	get_tree().quit();
+
