@@ -9,7 +9,7 @@
 [ext_resource path="res://maze/mazePlayer.tscn" type="PackedScene" id=8]
 [ext_resource path="res://maze/Labels/start.tscn" type="PackedScene" id=9]
 [ext_resource path="res://maze/mazeBomb.tscn" type="PackedScene" id=10]
-[ext_resource path="res://maze/mazeLevels/Hud.gd" type="Script" id=11]
+[ext_resource path="res://maze/Hud.gd" type="Script" id=11]
 [ext_resource path="res://Sprites/empty_heart.png" type="Texture" id=12]
 [ext_resource path="res://Sound/SFX/bombs.mp3" type="AudioStream" id=13]
 

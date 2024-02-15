@@ -1,6 +1,6 @@
 extends KinematicBody2D
 
-var movement_speed = 280
+var movement_speed = 320
 var audio_player
 var is_moving = false
 onready var animation = $Sprite

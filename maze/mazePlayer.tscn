@@ -13,10 +13,10 @@ flags = 4
 atlas = ExtResource( 1 )
 region = Rect2( 0, 0, 44, 64 )
 
-[sub_resource type="AtlasTexture" id=4]
+[sub_resource type="AtlasTexture" id=18]
 flags = 4
 atlas = ExtResource( 1 )
-region = Rect2( 92, 0, 45, 64 )
+region = Rect2( 93, 0, 46, 64 )
 
 [sub_resource type="AtlasTexture" id=5]
 flags = 4
@@ -58,7 +58,7 @@ flags = 4
 atlas = ExtResource( 1 )
 region = Rect2( 92, 128, 45, 64 )
 
-[sub_resource type="AtlasTexture" id=12]
+[sub_resource type="AtlasTexture" id=20]
 flags = 4
 atlas = ExtResource( 1 )
 region = Rect2( 138, 128, 45, 64 )
@@ -73,37 +73,37 @@ flags = 4
 atlas = ExtResource( 1 )
 region = Rect2( 0, 64, 45, 64 )
 
-[sub_resource type="AtlasTexture" id=15]
+[sub_resource type="AtlasTexture" id=19]
 flags = 4
 atlas = ExtResource( 1 )
-region = Rect2( 92, 64, 45, 64 )
+region = Rect2( 94, 64, 46, 64 )
 
 [sub_resource type="SpriteFrames" id=16]
 animations = [ {
-"frames": [ SubResource( 2 ), SubResource( 3 ), SubResource( 2 ), SubResource( 4 ) ],
+"frames": [ SubResource( 2 ), SubResource( 3 ), SubResource( 2 ), SubResource( 18 ) ],
 "loop": true,
 "name": "down",
-"speed": 6.0
+"speed": 8.0
 }, {
 "frames": [ SubResource( 5 ), SubResource( 6 ), SubResource( 7 ), SubResource( 8 ) ],
 "loop": true,
 "name": "left",
-"speed": 6.0
+"speed": 8.0
 }, {
 "frames": [ SubResource( 17 ), SubResource( 17 ) ],
 "loop": true,
 "name": "neutral",
 "speed": 5.0
 }, {
-"frames": [ SubResource( 9 ), SubResource( 10 ), SubResource( 11 ), SubResource( 12 ) ],
+"frames": [ SubResource( 9 ), SubResource( 10 ), SubResource( 11 ), SubResource( 20 ) ],
 "loop": true,
 "name": "right",
-"speed": 6.0
+"speed": 8.0
 }, {
-"frames": [ SubResource( 13 ), SubResource( 14 ), SubResource( 13 ), SubResource( 15 ) ],
+"frames": [ SubResource( 13 ), SubResource( 14 ), SubResource( 13 ), SubResource( 19 ) ],
 "loop": true,
 "name": "up",
-"speed": 6.0
+"speed": 8.0
 } ]
 
 [sub_resource type="RectangleShape2D" id=1]
@@ -120,9 +120,11 @@ __meta__ = {
 position = Vector2( -8.75, -1.25 )
 scale = Vector2( 1.09563, 0.924242 )
 frames = SubResource( 16 )
-animation = "neutral"
+animation = "right"
+frame = 3
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." groups=["Player"]]
+visible = false
 position = Vector2( -11.5, -0.5 )
 shape = SubResource( 1 )
 

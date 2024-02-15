@@ -10,7 +10,7 @@
 [ext_resource path="res://maze/Walls/Block.tres" type="TileSet" id=9]
 [ext_resource path="res://maze/Floor/Floor2.tres" type="TileSet" id=10]
 [ext_resource path="res://maze/Walls/Wall2.tres" type="TileSet" id=11]
-[ext_resource path="res://maze/mazeLevels/Hud.gd" type="Script" id=12]
+[ext_resource path="res://maze/Hud.gd" type="Script" id=12]
 [ext_resource path="res://Sprites/empty_heart.png" type="Texture" id=13]
 [ext_resource path="res://Sound/SFX/bombs.mp3" type="AudioStream" id=14]
 

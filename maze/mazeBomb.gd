@@ -22,7 +22,7 @@ func _ready():
 	# Connect the timeout signal of the timer to a method to call when it expires
 	explosion_timer.connect("timeout", self, "_on_explosion_timer_timeout")
 	# Set the timer to expire after 1 second
-	explosion_timer.wait_time = 1.5
+	explosion_timer.wait_time = 1.9
 	# Add the timer to the scene
 	add_child(explosion_timer)
 
