@@ -19,22 +19,84 @@
 			"volume": 0
 		},
 		{
-			"character": "",
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1708005167.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1708005286.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1708005167.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "\"We are under attack. Quick, prepare for battle! Presentations will have to wait!\""
 		},
 		{
-			"character": "",
+			"character": "character-1708005286.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "\"Yes, ma'am!\""
 		},
 		{
-			"character": "",
+			"character": "character-1708005167.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "\"Don't stand there! The beasts are close to our grounds! MOVE, MOVE MOVE!\""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
 		},
 		{
 			"character": "",
@@ -45,6 +107,7 @@
 		{
 			"animation": "slide_in_left.gd",
 			"animation_length": 0,
+			"animation_wait": false,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
 			"character": "character-1707139124.json",
@@ -63,7 +126,28 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"animation": "[Default]",
+			"animation_length": 0,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1708005007.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1708005007.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "\"Everything is ready, Sir! The enemy is already in the battlefield. We're ready for your orders!\""
@@ -139,7 +223,7 @@
 			"event_id": "dialogic_013"
 		},
 		{
-			"character": "",
+			"character": "character-1708005286.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "\"Sir, our reinforcements just arrived!\""
@@ -149,6 +233,27 @@
 			"event_id": "dialogic_001",
 			"portrait": "Happy",
 			"text": "\"... Dante!\""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1708005007.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
 		},
 		{
 			"animation": "[Default]",
@@ -195,13 +300,13 @@
 			"text": "Second and Third group, what is your status?\" "
 		},
 		{
-			"character": "",
+			"character": "character-1708005167.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "\"We are having some casualties, Sir! Awaiting further instructions.\""
 		},
 		{
-			"character": "",
+			"character": "character-1708005112.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "\"The enemy is stronger here. They are using some new technology that utilizes UV lighting! Awaiting for further instructions, Sir!\""

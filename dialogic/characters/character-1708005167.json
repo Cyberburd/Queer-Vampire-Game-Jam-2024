@@ -1,0 +1,21 @@
+{
+	"color": "#ffffffff",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1708005167.json",
+	"mirror_portraits": false,
+	"name": "Human Captain",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://portraits/NPCs/woman no name 1.png"
+		}
+	],
+	"scale": 50,
+	"theme": ""
+}

@@ -8,6 +8,7 @@
 		{
 			"animation": "[Default]",
 			"animation_length": 0,
+			"animation_wait": true,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
 			"character": "character-1707139124.json",
@@ -26,7 +27,28 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"animation": "[Default]",
+			"animation_length": 0,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1708005112.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1708005112.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Hey! That's our traitor! Are you finally back for punishment?"
@@ -38,7 +60,7 @@
 			"text": "\"I want to see General Von Dracula, Dante Von Dracula. I'll only speak to him.\" "
 		},
 		{
-			"character": "",
+			"character": "character-1708005112.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "\"You will not come into to contact to our leader, you traitor!\""
@@ -121,13 +143,13 @@
 			"volume": 0
 		},
 		{
-			"character": "",
+			"character": "character-1708005112.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "\"You red-eyed blood sucker... Inside a human bunker for months and probably giving out our information... Why wouldn't you kill them all? We are the superior species and yet, you are denying yourself of your own nature!...\""
 		},
 		{
-			"character": "",
+			"character": "character-1708005112.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "\"In some months all the Humans will be only food for us, anyway... They will all be dead! Like all was intended... Like GOD intended!\""

@@ -144,13 +144,34 @@
 			"text": "\"...\""
 		},
 		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1708005007.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": true,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
 			"character": "character-1707139107.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Where is Commander Nathalian?!\""
 		},
 		{
-			"character": "",
+			"character": "character-1708005007.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "\"Erm... E- Excuse me sir... About Commander Bloodmoon, he-\""
@@ -162,7 +183,7 @@
 			"text": "\"WHERE IS HE???\" "
 		},
 		{
-			"character": "",
+			"character": "character-1708005007.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "\"HE WENT TO THE BATTLE FIELD...HE TOLD US YOU GAVE HIM PERMISSION HE LEFT!\""
@@ -174,7 +195,7 @@
 			"text": "\"HE WENT WHERE?!!\""
 		},
 		{
-			"character": "",
+			"character": "character-1708005007.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "\"I-I'm sorry, General!... It wasn't my position...\nP-please don't hurt me...\""
@@ -188,7 +209,27 @@
 			"volume": 0
 		},
 		{
-			"character": "",
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1708005007.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"character": "character-1708005007.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "\"ARGH-\""
@@ -457,6 +498,7 @@
 		{
 			"animation": "[Default]",
 			"animation_length": 0,
+			"animation_wait": true,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
 			"character": "character-1707139047.json",
@@ -477,11 +519,12 @@
 		{
 			"animation": "[Default]",
 			"animation_length": 0,
+			"animation_wait": true,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
 			"character": "character-1707139107.json",
 			"event_id": "dialogic_002",
-			"mirror_portrait": false,
+			"mirror_portrait": true,
 			"portrait": "Angry",
 			"portrait_definition": "",
 			"position": {
@@ -601,7 +644,7 @@
 			"volume": 0
 		},
 		{
-			"character": "",
+			"character": "character-1708005044.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "\"TRAP THE HUMAN!\""
