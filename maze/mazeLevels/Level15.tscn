@@ -75,6 +75,7 @@ cell_size = Vector2( 8, 8 )
 cell_quadrant_size = 8
 show_collision = true
 format = 1
+tile_data = PoolIntArray( 6881277, 0, 0, 7143421, 0, 0, 7405565, 0, 0, 7667709, 0, 0 )
 
 [node name="TileMap2" type="TileMap" parent="."]
 tile_set = SubResource( 8 )

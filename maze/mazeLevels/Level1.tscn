@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=2]
+[gd_scene load_steps=19 format=2]
 
 [ext_resource path="res://maze/Floor/Floor1.tres" type="TileSet" id=1]
 [ext_resource path="res://maze/Walls/Block.tres" type="TileSet" id=2]
@@ -13,6 +13,8 @@
 [ext_resource path="res://Sound/SFX/bombs.mp3" type="AudioStream" id=11]
 [ext_resource path="res://Sprites/empty_heart.png" type="Texture" id=12]
 [ext_resource path="res://maze/Hud.gd" type="Script" id=13]
+
+[sub_resource type="StyleBoxFlat" id=11]
 
 [sub_resource type="ShaderMaterial" id=9]
 
@@ -54,6 +56,24 @@ cell_size = Vector2( 8, 8 )
 cell_quadrant_size = 8
 format = 1
 tile_data = PoolIntArray( 7602280, 0, 0, 7602284, 0, 0, 7602288, 0, 0 )
+
+[node name="Panel" type="Panel" parent="."]
+modulate = Color( 0.823529, 0.223529, 0.223529, 1 )
+self_modulate = Color( 1, 0.666667, 0.666667, 1 )
+margin_left = 624.0
+margin_top = 43.0
+margin_right = 1026.0
+margin_bottom = 80.0
+custom_styles/panel = SubResource( 11 )
+
+[node name="objective" parent="." instance=ExtResource( 4 )]
+material = SubResource( 3 )
+margin_left = 613.0
+margin_top = -42.0
+margin_right = 1032.0
+margin_bottom = 164.0
+rect_scale = Vector2( 1, 1 )
+text = "dodge the bombs and reach the end"
 
 [node name="start" parent="." instance=ExtResource( 4 )]
 
@@ -159,10 +179,19 @@ position = Vector2( 788, 721 )
 position = Vector2( 781, 283 )
 
 [node name="Bomb4" parent="." instance=ExtResource( 10 )]
-position = Vector2( 1639, 782 )
+position = Vector2( 1669, 814 )
+
+[node name="Bomb6" parent="." instance=ExtResource( 10 )]
+position = Vector2( 1583, 779 )
 
 [node name="Bomb5" parent="." instance=ExtResource( 10 )]
 position = Vector2( 1254, 471 )
+
+[node name="Bomb8" parent="." instance=ExtResource( 10 )]
+position = Vector2( 1313, 350 )
+
+[node name="Bomb7" parent="." instance=ExtResource( 10 )]
+position = Vector2( 1114, 202 )
 
 [node name="Music" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 8 )
