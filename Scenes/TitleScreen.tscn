@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://Fonts/RIKY2vamp.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://Scripts/TitleScreen.gd" type="Script" id=2]
@@ -6,6 +6,7 @@
 [ext_resource path="res://Scenes/DialogueScene1.tscn" type="PackedScene" id=4]
 [ext_resource path="res://Themes/ButtonTheme.tres" type="Theme" id=5]
 [ext_resource path="res://Sound/Music/A Dark Ritual.ogg" type="AudioStream" id=6]
+[ext_resource path="res://Backgrounds/MENU.PNG" type="Texture" id=7]
 
 [sub_resource type="DynamicFont" id=1]
 size = 173
@@ -29,6 +30,12 @@ FinalScene = ExtResource( 3 )
 margin_right = 1920.0
 margin_bottom = 1080.0
 color = Color( 0.458824, 0.0117647, 0.0117647, 1 )
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_right = 1922.0
+margin_bottom = 1084.0
+texture = ExtResource( 7 )
+expand = true
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 margin_right = 1920.0

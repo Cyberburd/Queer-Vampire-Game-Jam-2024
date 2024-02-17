@@ -1,9 +1,10 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://Fonts/RIKY2vamp.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://Scripts/CreditsScene.gd" type="Script" id=2]
 [ext_resource path="res://Themes/ButtonTheme.tres" type="Theme" id=3]
 [ext_resource path="res://Sound/Music/Lord Neculai the Lonely Vampire.ogg" type="AudioStream" id=4]
+[ext_resource path="res://Backgrounds/MENU.PNG" type="Texture" id=5]
 
 [sub_resource type="DynamicFont" id=1]
 size = 173
@@ -24,6 +25,12 @@ script = ExtResource( 2 )
 margin_right = 1920.0
 margin_bottom = 1080.0
 
+[node name="TextureRect2" type="TextureRect" parent="."]
+margin_right = 1922.0
+margin_bottom = 1084.0
+texture = ExtResource( 5 )
+expand = true
+
 [node name="MarginContainer" type="MarginContainer" parent="."]
 margin_right = 1920.0
 margin_bottom = 1080.0
@@ -33,6 +40,7 @@ custom_constants/margin_left = 200
 custom_constants/margin_bottom = 150
 
 [node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+self_modulate = Color( 0.984314, 0.984314, 0.984314, 1 )
 margin_left = 200.0
 margin_top = 100.0
 margin_right = 1720.0
@@ -54,6 +62,7 @@ margin_right = 1520.0
 margin_bottom = 830.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+size_flags_stretch_ratio = 1.18
 custom_constants/separation = 20
 
 [node name="MarginContainer" type="MarginContainer" parent="MarginContainer/VBoxContainer/VBoxContainer"]
@@ -63,6 +72,11 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_constants/margin_right = 150
 custom_constants/margin_left = 150
+
+[node name="Panel" type="Panel" parent="MarginContainer/VBoxContainer/VBoxContainer/MarginContainer"]
+margin_left = 150.0
+margin_right = 1370.0
+margin_bottom = 59.0
 
 [node name="Label" type="Label" parent="MarginContainer/VBoxContainer/VBoxContainer/MarginContainer"]
 margin_left = 150.0
@@ -84,6 +98,11 @@ size_flags_vertical = 3
 custom_constants/margin_right = 150
 custom_constants/margin_left = 150
 
+[node name="Panel2" type="Panel" parent="MarginContainer/VBoxContainer/VBoxContainer/MarginContainer2"]
+margin_left = 150.0
+margin_right = 1370.0
+margin_bottom = 59.0
+
 [node name="Label" type="Label" parent="MarginContainer/VBoxContainer/VBoxContainer/MarginContainer2"]
 margin_left = 150.0
 margin_right = 1370.0
@@ -103,6 +122,11 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_constants/margin_right = 150
 custom_constants/margin_left = 150
+
+[node name="Panel3" type="Panel" parent="MarginContainer/VBoxContainer/VBoxContainer/MarginContainer3"]
+margin_left = 150.0
+margin_right = 1370.0
+margin_bottom = 59.0
 
 [node name="Label" type="Label" parent="MarginContainer/VBoxContainer/VBoxContainer/MarginContainer3"]
 margin_left = 150.0
@@ -124,6 +148,11 @@ size_flags_vertical = 3
 custom_constants/margin_right = 150
 custom_constants/margin_left = 150
 
+[node name="Panel4" type="Panel" parent="MarginContainer/VBoxContainer/VBoxContainer/MarginContainer4"]
+margin_left = 150.0
+margin_right = 1370.0
+margin_bottom = 59.0
+
 [node name="Label" type="Label" parent="MarginContainer/VBoxContainer/VBoxContainer/MarginContainer4"]
 margin_left = 150.0
 margin_right = 1370.0
@@ -144,6 +173,11 @@ size_flags_vertical = 3
 custom_constants/margin_right = 150
 custom_constants/margin_left = 150
 
+[node name="Panel5" type="Panel" parent="MarginContainer/VBoxContainer/VBoxContainer/MarginContainer5"]
+margin_left = 150.0
+margin_right = 1370.0
+margin_bottom = 59.0
+
 [node name="Label" type="Label" parent="MarginContainer/VBoxContainer/VBoxContainer/MarginContainer5"]
 margin_left = 150.0
 margin_right = 1370.0
@@ -163,6 +197,11 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_constants/margin_right = 150
 custom_constants/margin_left = 150
+
+[node name="Panel6" type="Panel" parent="MarginContainer/VBoxContainer/VBoxContainer/MarginContainer6"]
+margin_left = 150.0
+margin_right = 1370.0
+margin_bottom = 59.0
 
 [node name="Label" type="Label" parent="MarginContainer/VBoxContainer/VBoxContainer/MarginContainer6"]
 margin_left = 150.0
