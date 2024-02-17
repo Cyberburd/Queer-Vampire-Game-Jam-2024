@@ -42,6 +42,10 @@
 		{
 			"name": "Silhouette",
 			"path": "res://portraits/Human_ Gabriel/Gabriel Silhouette.png"
+		},
+		{
+			"name": "With Nathalian",
+			"path": "res://portraits/Human_ Gabriel/Gabriel With Nat.png"
 		}
 	],
 	"scale": 50,

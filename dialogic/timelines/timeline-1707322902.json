@@ -396,6 +396,7 @@
 		{
 			"animation": "[Default]",
 			"animation_length": 0,
+			"animation_wait": true,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
 			"character": "[All]",
@@ -420,6 +421,7 @@
 		{
 			"animation": "[Default]",
 			"animation_length": 0,
+			"animation_wait": true,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
 			"character": "character-1707139107.json",
@@ -478,12 +480,13 @@
 		{
 			"animation": "[Default]",
 			"animation_length": 0,
+			"animation_wait": true,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
-			"character": "character-1707139124.json",
+			"character": "character-1707139047.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
-			"portrait": "Default",
+			"portrait": "With Nathalian",
 			"portrait_definition": "",
 			"position": {
 				"0": false,
@@ -496,25 +499,10 @@
 			"z_index": 0
 		},
 		{
-			"animation": "[Default]",
-			"animation_length": 0,
-			"animation_wait": true,
-			"change_mirror_portrait": false,
-			"change_z_index": false,
 			"character": "character-1707139047.json",
-			"event_id": "dialogic_002",
-			"mirror_portrait": false,
-			"portrait": "Evil",
-			"portrait_definition": "",
-			"position": {
-				"0": true,
-				"1": false,
-				"2": false,
-				"3": false,
-				"4": false
-			},
-			"type": 0,
-			"z_index": 0
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"His Royal Highness! So you finally showed up!\" "
 		},
 		{
 			"animation": "[Default]",
@@ -536,12 +524,6 @@
 			},
 			"type": 0,
 			"z_index": 0
-		},
-		{
-			"character": "character-1707139047.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "\"His Royal Highness! So you finally showed up!\" "
 		},
 		{
 			"character": "character-1707139107.json",
@@ -578,27 +560,6 @@
 			"value": ""
 		},
 		{
-			"animation": "[No Animation]",
-			"animation_length": 0,
-			"change_mirror_portrait": false,
-			"change_position": false,
-			"change_z_index": false,
-			"character": "character-1707139124.json",
-			"event_id": "dialogic_002",
-			"mirror_portrait": false,
-			"portrait": "Shocked",
-			"portrait_definition": "",
-			"position": {
-				"0": false,
-				"1": false,
-				"2": false,
-				"3": false,
-				"4": false
-			},
-			"type": 2,
-			"z_index": 0
-		},
-		{
 			"choice": "\"I have to create a distraction to make some time...\"",
 			"condition": "",
 			"definition": "",
@@ -606,33 +567,12 @@
 			"value": ""
 		},
 		{
-			"animation": "[No Animation]",
-			"animation_length": 0,
-			"change_mirror_portrait": false,
-			"change_position": false,
-			"change_z_index": false,
-			"character": "character-1707139124.json",
-			"event_id": "dialogic_002",
-			"mirror_portrait": false,
-			"portrait": "Default",
-			"portrait_definition": "",
-			"position": {
-				"0": false,
-				"1": false,
-				"2": false,
-				"3": false,
-				"4": false
-			},
-			"type": 2,
-			"z_index": 0
-		},
-		{
 			"event_id": "dialogic_013"
 		},
 		{
 			"character": "character-1707139047.json",
 			"event_id": "dialogic_001",
-			"portrait": "Shocked",
+			"portrait": "(Don't change)",
 			"text": "\"Hey! I told you not to move!\""
 		},
 		{
@@ -652,7 +592,7 @@
 		{
 			"character": "character-1707139047.json",
 			"event_id": "dialogic_001",
-			"portrait": "Evil",
+			"portrait": "(Don't change)",
 			"text": "\"I guess you and your friends aren't really up for a conversation! It's time to leave then!\""
 		},
 		{
@@ -666,7 +606,7 @@
 		{
 			"character": "character-1707139047.json",
 			"event_id": "dialogic_001",
-			"portrait": "Evil",
+			"portrait": "(Don't change)",
 			"text": "\"Since you guys don't want to cooperate, I'll have to resort to a bitter ending!\" "
 		},
 		{
