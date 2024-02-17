@@ -194,6 +194,10 @@
 			"event_id": "dialogic_040"
 		},
 		{
+			"change_scene": "res://maze/mazeLevels/Level5.tscn",
+			"event_id": "dialogic_041"
+		},
+		{
 			"background": "res://Backgrounds/dante's_room.png",
 			"event_id": "dialogic_021"
 		},
@@ -648,6 +652,10 @@
 		{
 			"emit_signal": "final-game",
 			"event_id": "dialogic_040"
+		},
+		{
+			"change_scene": "res://maze/mazeLevels/Level15.tscn",
+			"event_id": "dialogic_041"
 		},
 		{
 			"background": "res://Backgrounds/bunker.png",

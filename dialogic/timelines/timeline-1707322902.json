@@ -42,6 +42,10 @@
 			"event_id": "dialogic_040"
 		},
 		{
+			"change_scene": "res://maze/mazeLevels/Level4.tscn",
+			"event_id": "dialogic_041"
+		},
+		{
 			"animation": "[Default]",
 			"animation_length": 0,
 			"animation_wait": true,

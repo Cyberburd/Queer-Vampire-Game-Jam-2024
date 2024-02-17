@@ -191,6 +191,10 @@
 			"event_id": "dialogic_040"
 		},
 		{
+			"change_scene": "res://maze/mazeLevels/Level2.tscn",
+			"event_id": "dialogic_041"
+		},
+		{
 			"character": "character-1707139124.json",
 			"event_id": "dialogic_001",
 			"portrait": "Default",
@@ -212,6 +216,10 @@
 		{
 			"emit_signal": "mini-game-2",
 			"event_id": "dialogic_040"
+		},
+		{
+			"change_scene": "res://maze/mazeLevels/Level2.tscn",
+			"event_id": "dialogic_041"
 		},
 		{
 			"character": "character-1707139124.json",
@@ -408,6 +416,10 @@
 		{
 			"emit_signal": "mini-game-3",
 			"event_id": "dialogic_040"
+		},
+		{
+			"change_scene": "res://maze/mazeLevels/Level3.tscn",
+			"event_id": "dialogic_041"
 		},
 		{
 			"character": "character-1707139107.json",

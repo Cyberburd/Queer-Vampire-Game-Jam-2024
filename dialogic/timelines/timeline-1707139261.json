@@ -402,6 +402,15 @@
 			"event_id": "dialogic_040"
 		},
 		{
+			"change_scene": "res://maze/mazeLevels/Level1.tscn",
+			"event_id": "dialogic_041"
+		},
+		{
+			"custom_slot": "",
+			"event_id": "dialogic_026",
+			"use_default_slot": true
+		},
+		{
 			"change_timeline": "timeline-1707238186.json",
 			"event_id": "dialogic_020"
 		}
