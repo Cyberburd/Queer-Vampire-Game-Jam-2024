@@ -1,6 +1,6 @@
 [gd_scene load_steps=20 format=2]
 
-[ext_resource path="res://Sound/Music/maze2.mp3" type="AudioStream" id=2]
+[ext_resource path="res://Sound/Music/maze5.mp3" type="AudioStream" id=1]
 [ext_resource path="res://Sprites/heart_32x32.png" type="Texture" id=3]
 [ext_resource path="res://Sound/SFX/running.mp3" type="AudioStream" id=4]
 [ext_resource path="res://Sprites/Tiles.png" type="Texture" id=5]
@@ -181,7 +181,7 @@ position = Vector2( 1546, 461 )
 position = Vector2( 1350, 151 )
 
 [node name="Bomb3" parent="." instance=ExtResource( 9 )]
-position = Vector2( 1285, 378 )
+position = Vector2( 1279, 312 )
 
 [node name="Bomb4" parent="." instance=ExtResource( 9 )]
 position = Vector2( 1673, 177 )
@@ -205,10 +205,10 @@ position = Vector2( 1600, 853 )
 position = Vector2( 592, 229 )
 
 [node name="Bomb10" parent="." instance=ExtResource( 9 )]
-position = Vector2( 1297, 619 )
+position = Vector2( 1293, 527 )
 
 [node name="Music" type="AudioStreamPlayer" parent="."]
-stream = ExtResource( 2 )
+stream = ExtResource( 1 )
 volume_db = -8.877
 autoplay = true
 

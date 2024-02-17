@@ -1,5 +1,6 @@
 [gd_scene load_steps=21 format=2]
 
+[ext_resource path="res://Sound/Music/maze4.mp3" type="AudioStream" id=1]
 [ext_resource path="res://maze/mazeBomb.tscn" type="PackedScene" id=2]
 [ext_resource path="res://maze/mazePlayer.tscn" type="PackedScene" id=3]
 [ext_resource path="res://maze/Labels/start.tscn" type="PackedScene" id=4]
@@ -7,7 +8,6 @@
 [ext_resource path="res://Sprites/heart_32x32.png" type="Texture" id=6]
 [ext_resource path="res://Sound/SFX/running.mp3" type="AudioStream" id=7]
 [ext_resource path="res://Sprites/Tiles.png" type="Texture" id=8]
-[ext_resource path="res://Sound/Music/maze2.mp3" type="AudioStream" id=9]
 [ext_resource path="res://Sprites/tiles-red.png" type="Texture" id=10]
 [ext_resource path="res://maze/Walls/Block.tres" type="TileSet" id=11]
 [ext_resource path="res://maze/Hud.gd" type="Script" id=12]
@@ -170,13 +170,16 @@ position = Vector2( 1194, 120 )
 position = Vector2( 1322, 294 )
 
 [node name="Bomb22" parent="." instance=ExtResource( 2 )]
-position = Vector2( 1785, 613 )
+position = Vector2( 1765, 625 )
 
 [node name="Bomb18" parent="." instance=ExtResource( 2 )]
-position = Vector2( 1783, 527 )
+position = Vector2( 1763, 519 )
 
 [node name="Bomb28" parent="." instance=ExtResource( 2 )]
-position = Vector2( 1732, 569 )
+position = Vector2( 1714, 576 )
+
+[node name="Bomb32" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1763, 573 )
 
 [node name="Bomb17" parent="." instance=ExtResource( 2 )]
 position = Vector2( 1573, 531 )
@@ -196,6 +199,12 @@ position = Vector2( 1539, 284 )
 [node name="Bomb27" parent="." instance=ExtResource( 2 )]
 position = Vector2( 376, 937 )
 
+[node name="Bomb29" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1309, 621 )
+
+[node name="Bomb30" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1309, 621 )
+
 [node name="Bomb5" parent="." instance=ExtResource( 2 )]
 position = Vector2( 869, 397 )
 
@@ -210,6 +219,54 @@ position = Vector2( 309, 220 )
 
 [node name="Bomb8" parent="." instance=ExtResource( 2 )]
 position = Vector2( 1376, 789 )
+
+[node name="Bomb34" parent="." instance=ExtResource( 2 )]
+position = Vector2( 248, 673 )
+
+[node name="Bomb35" parent="." instance=ExtResource( 2 )]
+position = Vector2( 92, 274 )
+
+[node name="Bomb36" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1306, 422 )
+
+[node name="Bomb37" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1557, 927 )
+
+[node name="Bomb38" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1281, 730 )
+
+[node name="Bomb39" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1612, 728 )
+
+[node name="Bomb40" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1706, 748 )
+
+[node name="Bomb41" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1711, 336 )
+
+[node name="Bomb42" parent="." instance=ExtResource( 2 )]
+position = Vector2( 725, 124 )
+
+[node name="Bomb43" parent="." instance=ExtResource( 2 )]
+position = Vector2( 93, 445 )
+
+[node name="Bomb44" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1479, 77 )
+
+[node name="Bomb45" parent="." instance=ExtResource( 2 )]
+position = Vector2( 408, 783 )
+
+[node name="Bomb46" parent="." instance=ExtResource( 2 )]
+position = Vector2( 551, 652 )
+
+[node name="Bomb47" parent="." instance=ExtResource( 2 )]
+position = Vector2( 934, 618 )
+
+[node name="Bomb48" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1309, 882 )
+
+[node name="Bomb49" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1132, 618 )
 
 [node name="Bomb13" parent="." instance=ExtResource( 2 )]
 position = Vector2( 1168, 704 )
@@ -236,7 +293,7 @@ position = Vector2( 475, 349 )
 position = Vector2( 875, 185 )
 
 [node name="Music" type="AudioStreamPlayer" parent="."]
-stream = ExtResource( 9 )
+stream = ExtResource( 1 )
 volume_db = -8.877
 autoplay = true
 

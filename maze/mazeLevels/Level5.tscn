@@ -107,6 +107,30 @@ position = Vector2( 79, 156 )
 [node name="Bomb" parent="." instance=ExtResource( 4 )]
 position = Vector2( 321, 808 )
 
+[node name="Bomb6" parent="." instance=ExtResource( 4 )]
+position = Vector2( 450, 536 )
+
+[node name="Bomb7" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1637, 820 )
+
+[node name="Bomb8" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1583, 642 )
+
+[node name="Bomb11" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1573, 119 )
+
+[node name="Bomb12" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1686, 405 )
+
+[node name="Bomb13" parent="." instance=ExtResource( 4 )]
+position = Vector2( 995, 299 )
+
+[node name="Bomb9" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1317, 834 )
+
+[node name="Bomb10" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1420, 694 )
+
 [node name="Bomb2" parent="." instance=ExtResource( 4 )]
 position = Vector2( 1331, 188 )
 

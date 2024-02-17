@@ -1,5 +1,6 @@
 [gd_scene load_steps=21 format=2]
 
+[ext_resource path="res://Sound/Music/maze4.mp3" type="AudioStream" id=1]
 [ext_resource path="res://maze/mazeBomb.tscn" type="PackedScene" id=2]
 [ext_resource path="res://maze/Labels/end.tscn" type="PackedScene" id=3]
 [ext_resource path="res://maze/mazePlayer.tscn" type="PackedScene" id=4]
@@ -7,7 +8,6 @@
 [ext_resource path="res://Sprites/heart_32x32.png" type="Texture" id=6]
 [ext_resource path="res://Sound/SFX/running.mp3" type="AudioStream" id=7]
 [ext_resource path="res://Sprites/Tiles.png" type="Texture" id=8]
-[ext_resource path="res://Sound/Music/maze2.mp3" type="AudioStream" id=9]
 [ext_resource path="res://Sprites/tiles-red.png" type="Texture" id=10]
 [ext_resource path="res://maze/Walls/Block.tres" type="TileSet" id=11]
 [ext_resource path="res://maze/Hud.gd" type="Script" id=12]
@@ -166,6 +166,33 @@ position = Vector2( 1624, 701 )
 [node name="Bomb13" parent="." instance=ExtResource( 2 )]
 position = Vector2( 1712, 849 )
 
+[node name="Bomb23" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1707, 588 )
+
+[node name="Bomb24" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1463, 743 )
+
+[node name="Bomb25" parent="." instance=ExtResource( 2 )]
+position = Vector2( 232, 755 )
+
+[node name="Bomb26" parent="." instance=ExtResource( 2 )]
+position = Vector2( 252, 558 )
+
+[node name="Bomb27" parent="." instance=ExtResource( 2 )]
+position = Vector2( 175, 669 )
+
+[node name="Bomb28" parent="." instance=ExtResource( 2 )]
+position = Vector2( 844, 743 )
+
+[node name="Bomb29" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1148, 871 )
+
+[node name="Bomb30" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1215, 715 )
+
+[node name="Bomb31" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1804, 776 )
+
 [node name="Bomb14" parent="." instance=ExtResource( 2 )]
 position = Vector2( 1336, 655 )
 
@@ -215,7 +242,7 @@ position = Vector2( 147, 159 )
 position = Vector2( 675, 579 )
 
 [node name="Music" type="AudioStreamPlayer" parent="."]
-stream = ExtResource( 9 )
+stream = ExtResource( 1 )
 volume_db = -8.877
 autoplay = true
 
