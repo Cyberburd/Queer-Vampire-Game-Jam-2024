@@ -15,6 +15,48 @@
 			"name": "New value",
 			"type": 0,
 			"value": ""
+		},
+		{
+			"id": "1708277351-918",
+			"name": "Level5Flag",
+			"type": 0,
+			"value": "false"
+		},
+		{
+			"id": "1708277039-366",
+			"name": "Level3Flag",
+			"type": 0,
+			"value": "false"
+		},
+		{
+			"id": "1708277066-146",
+			"name": "Level4Flag",
+			"type": 0,
+			"value": "false"
+		},
+		{
+			"id": "1708276857-787",
+			"name": "Level2Flag",
+			"type": 0,
+			"value": "false"
+		},
+		{
+			"id": "1708276765-648",
+			"name": "Level1Flag",
+			"type": 0,
+			"value": "false"
+		},
+		{
+			"id": "1708277534-483",
+			"name": "Level6Flag",
+			"type": 0,
+			"value": "false"
+		},
+		{
+			"id": "1708277689-713",
+			"name": "FinalLevelFlag",
+			"type": 0,
+			"value": "false"
 		}
 	]
 }

@@ -1,6 +1,19 @@
 {
 	"events": [
 		{
+			"condition": "",
+			"definition": "1708276765-648",
+			"event_id": "dialogic_012",
+			"value": "true"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -398,17 +411,14 @@
 			"event_id": "dialogic_013"
 		},
 		{
-			"emit_signal": "mini-game-1",
-			"event_id": "dialogic_040"
-		},
-		{
 			"change_scene": "res://maze/mazeLevels/Level1.tscn",
 			"event_id": "dialogic_041"
 		},
 		{
-			"custom_slot": "",
-			"event_id": "dialogic_026",
-			"use_default_slot": true
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "post-level"
 		},
 		{
 			"change_timeline": "timeline-1707238186.json",

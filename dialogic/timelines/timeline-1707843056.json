@@ -1,6 +1,45 @@
 {
 	"events": [
 		{
+			"condition": "",
+			"definition": "1708277689-713",
+			"event_id": "dialogic_012",
+			"value": "true"
+		},
+		{
+			"anchor_id": "anchor-1708277642",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1708277534-483",
+			"event_id": "dialogic_012",
+			"value": "true"
+		},
+		{
+			"anchor_id": "anchor-1708277674",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1708277351-918",
+			"event_id": "dialogic_012",
+			"value": "true"
+		},
+		{
+			"anchor_id": "anchor-1708277676",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
 			"background": "res://Backgrounds/bunker.png",
 			"event_id": "dialogic_021"
 		},
@@ -190,12 +229,14 @@
 			"z_index": 0
 		},
 		{
-			"emit_signal": "mini-games",
-			"event_id": "dialogic_040"
-		},
-		{
 			"change_scene": "res://maze/mazeLevels/Level5.tscn",
 			"event_id": "dialogic_041"
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1708277676",
+			"index": 0,
+			"name": "post level 5"
 		},
 		{
 			"background": "res://Backgrounds/dante's_room.png",
@@ -384,8 +425,14 @@
 			"text": "\"Let's fight together like we've always done! Like how it is meant to be!\""
 		},
 		{
-			"emit_signal": "mind-control-game",
-			"event_id": "dialogic_040"
+			"change_scene": "res://maze/mazeLevels/Level6.tscn",
+			"event_id": "dialogic_041"
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1708277674",
+			"index": 0,
+			"name": "post level 6"
 		},
 		{
 			"character": "character-1707139124.json",
@@ -650,16 +697,58 @@
 			"z_index": 0
 		},
 		{
-			"emit_signal": "final-game",
-			"event_id": "dialogic_040"
-		},
-		{
 			"change_scene": "res://maze/mazeLevels/Level15.tscn",
 			"event_id": "dialogic_041"
 		},
 		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1708277642",
+			"index": 0,
+			"name": "post final level"
+		},
+		{
 			"background": "res://Backgrounds/bunker.png",
 			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1707139047.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
 		},
 		{
 			"character": "character-1707139124.json",

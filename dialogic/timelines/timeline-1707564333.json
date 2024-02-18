@@ -379,6 +379,10 @@
 			"event_id": "dialogic_001",
 			"portrait": "Worried",
 			"text": "\"I'm so hungry... I'm getting weak...\""
+		},
+		{
+			"change_timeline": "timeline-1707564990.json",
+			"event_id": "dialogic_020"
 		}
 	],
 	"metadata": {

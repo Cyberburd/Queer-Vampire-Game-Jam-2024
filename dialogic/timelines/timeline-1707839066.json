@@ -696,6 +696,10 @@
 			"event_id": "dialogic_001",
 			"portrait": "Angry",
 			"text": "\"The sky above will fall and the stars will sing for those in need. To those that need to be saved from the  devils wicked ways...\""
+		},
+		{
+			"change_timeline": "timeline-1707841131.json",
+			"event_id": "dialogic_020"
 		}
 	],
 	"metadata": {

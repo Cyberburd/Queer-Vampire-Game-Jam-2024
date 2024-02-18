@@ -458,6 +458,10 @@
 			"event_id": "dialogic_001",
 			"portrait": "Worried",
 			"text": "\"it's cold... I'm so hungry...\" "
+		},
+		{
+			"change_timeline": "timeline-1707564333.json",
+			"event_id": "dialogic_020"
 		}
 	],
 	"metadata": {

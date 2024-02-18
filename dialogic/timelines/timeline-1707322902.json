@@ -26,6 +26,19 @@
 			"z_index": 0
 		},
 		{
+			"condition": "",
+			"definition": "1708277066-146",
+			"event_id": "dialogic_012",
+			"value": "true"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
 			"character": "character-1707139124.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -38,12 +51,14 @@
 			"text": "\"WAIT! OH NO!!\""
 		},
 		{
-			"emit_signal": "mini-game-4",
-			"event_id": "dialogic_040"
-		},
-		{
 			"change_scene": "res://maze/mazeLevels/Level4.tscn",
 			"event_id": "dialogic_041"
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "post level 4"
 		},
 		{
 			"animation": "[Default]",
@@ -668,6 +683,10 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "\"DON'T YOU DARE TOUCH NATHALIAN!!!\" "
+		},
+		{
+			"change_timeline": "timeline-1707477155.json",
+			"event_id": "dialogic_020"
 		}
 	],
 	"metadata": {
