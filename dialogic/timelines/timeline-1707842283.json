@@ -1,6 +1,63 @@
 {
 	"events": [
 		{
+			"condition": "",
+			"definition": "1708277689-713",
+			"event_id": "dialogic_012",
+			"value": "true"
+		},
+		{
+			"background": "res://Backgrounds/dante's_room.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Worried",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1707139107.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Happy",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
 			"background": "res://Backgrounds/vampire_base.png",
 			"event_id": "dialogic_021",
 			"fade_duration": 1
@@ -532,6 +589,12 @@
 		},
 		{
 			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "mind gone"
 		},
 		{
 			"character": "character-1707139107.json",

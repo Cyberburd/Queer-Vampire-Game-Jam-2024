@@ -41,12 +41,6 @@
 			"value": "false"
 		},
 		{
-			"id": "1708276765-648",
-			"name": "Level1Flag",
-			"type": 0,
-			"value": "false"
-		},
-		{
 			"id": "1708277534-483",
 			"name": "Level6Flag",
 			"type": 0,
@@ -55,6 +49,12 @@
 		{
 			"id": "1708277689-713",
 			"name": "FinalLevelFlag",
+			"type": 0,
+			"value": "false"
+		},
+		{
+			"id": "1708276765-648",
+			"name": "Level1Flag",
 			"type": 0,
 			"value": "false"
 		}
