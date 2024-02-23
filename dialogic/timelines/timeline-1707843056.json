@@ -229,7 +229,7 @@
 			"z_index": 0
 		},
 		{
-			"change_scene": "res://maze/mazeLevels/Level5.tscn",
+			"change_scene": "res://maze/mazeLevels/9.2 - Traitor's Crown Level5-1.tscn",
 			"event_id": "dialogic_041"
 		},
 		{
@@ -425,7 +425,7 @@
 			"text": "\"Let's fight together like we've always done! Like how it is meant to be!\""
 		},
 		{
-			"change_scene": "res://maze/mazeLevels/Level6.tscn",
+			"change_scene": "res://maze/mazeLevels/9.2 - Traitor's Crown Level6-1.tscn",
 			"event_id": "dialogic_041"
 		},
 		{
@@ -697,7 +697,7 @@
 			"z_index": 0
 		},
 		{
-			"change_scene": "res://maze/mazeLevels/Level15.tscn",
+			"change_scene": "res://maze/mazeLevels/9.2 - Traitor's Crown Level7-1.tscn",
 			"event_id": "dialogic_041"
 		},
 		{

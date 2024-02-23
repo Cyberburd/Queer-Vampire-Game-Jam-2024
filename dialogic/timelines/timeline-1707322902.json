@@ -51,7 +51,7 @@
 			"text": "\"WAIT! OH NO!!\""
 		},
 		{
-			"change_scene": "res://maze/mazeLevels/Level4.tscn",
+			"change_scene": "res://maze/mazeLevels/3 - Meet Cute Level3-1.tscn",
 			"event_id": "dialogic_041"
 		},
 		{

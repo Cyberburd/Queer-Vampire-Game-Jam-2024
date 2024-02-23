@@ -12,7 +12,7 @@
 		},
 		{
 			"animation": "slide_in_left.gd",
-			"animation_length": 0,
+			"animation_length": 100,
 			"animation_wait": false,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
@@ -245,7 +245,7 @@
 			"text": "Now go go go!\""
 		},
 		{
-			"change_scene": "res://maze/mazeLevels/Level2.tscn",
+			"change_scene": "res://maze/mazeLevels/2 - Bad Orders Level2-1.tscn",
 			"event_id": "dialogic_041"
 		},
 		{
@@ -268,7 +268,7 @@
 			"text": "\"Front Row, go for a defence line! Second and third row, attack from the sides, First row protect the Second and Third Row!\" "
 		},
 		{
-			"change_scene": "res://maze/mazeLevels/Level2.tscn",
+			"change_scene": "res://maze/mazeLevels/2 - Bad Orders Level2-1.tscn",
 			"event_id": "dialogic_041"
 		},
 		{
@@ -464,7 +464,7 @@
 			"event_id": "dialogic_013"
 		},
 		{
-			"change_scene": "res://maze/mazeLevels/Level3.tscn",
+			"change_scene": "res://maze/mazeLevels/2 - Bad Orders Level2-4.tscn",
 			"event_id": "dialogic_041"
 		},
 		{

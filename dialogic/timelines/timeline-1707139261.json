@@ -411,7 +411,7 @@
 			"event_id": "dialogic_013"
 		},
 		{
-			"change_scene": "res://maze/mazeLevels/Level1.tscn",
+			"change_scene": "res://maze/mazeLevels/1- Radio Level1-1.tscn",
 			"event_id": "dialogic_041"
 		},
 		{
