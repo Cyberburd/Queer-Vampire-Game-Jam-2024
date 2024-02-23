@@ -56,11 +56,4 @@ func _physics_process(delta):
 func ouch(var enemyposx):
 	MazeGlobal.lose_life()
 	
-func _on_Victory_Point_body_entered():
-	# Check if the player has lives remaining
-	if MazeGlobal.lives > 0:
-		print("reloaded lives")
-		MazeGlobal.lives = MazeGlobal.max_lives
 
-	else:
-		print("Player has no lives remaining. Next level will not be loaded.")

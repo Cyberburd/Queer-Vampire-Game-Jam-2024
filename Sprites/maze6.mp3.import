@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/maze6.mp3-3d057063cbb2f16fab672f329064ba22.mp3str"
+
+[deps]
+
+source_file="res://Sprites/maze6.mp3"
+dest_files=[ "res://.import/maze6.mp3-3d057063cbb2f16fab672f329064ba22.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
