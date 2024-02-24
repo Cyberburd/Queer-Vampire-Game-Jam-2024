@@ -1,4 +1,4 @@
-[gd_scene load_steps=22 format=2]
+[gd_scene load_steps=23 format=2]
 
 [ext_resource path="res://maze/Hud.gd" type="Script" id=1]
 [ext_resource path="res://maze/mazeBomb.tscn" type="PackedScene" id=2]
@@ -14,6 +14,7 @@
 [ext_resource path="res://Sprites/empty_heart.png" type="Texture" id=12]
 [ext_resource path="res://maze/Walls/Block.tres" type="TileSet" id=13]
 [ext_resource path="res://maze/Victory Point.tscn" type="PackedScene" id=14]
+[ext_resource path="res://Scenes/DialogueScene7.tscn" type="PackedScene" id=15]
 
 [sub_resource type="TileSet" id=8]
 0/name = "tiles-red.png 0"
@@ -95,6 +96,7 @@ tile_data = PoolIntArray( 0, 0, 0, 1, 0, 0, 2, 0, 0, 3, 0, 0, 4, 0, 0, 5, 0, 0, 
 
 [node name="Victory Point" parent="." instance=ExtResource( 14 )]
 position = Vector2( 1967, 632 )
+sceneToLoad = ExtResource( 15 )
 narrativeVarToSet = "7-Fever King"
 
 [node name="start" parent="." instance=ExtResource( 5 )]

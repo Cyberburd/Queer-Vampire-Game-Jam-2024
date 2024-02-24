@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=2]
+[gd_scene load_steps=22 format=2]
 
 [ext_resource path="res://Sound/Music/maze6.mp3" type="AudioStream" id=1]
 [ext_resource path="res://maze/mazeBomb.tscn" type="PackedScene" id=2]
@@ -7,6 +7,7 @@
 [ext_resource path="res://maze/Labels/start.tscn" type="PackedScene" id=5]
 [ext_resource path="res://Sprites/heart_32x32.png" type="Texture" id=6]
 [ext_resource path="res://Sound/SFX/running.mp3" type="AudioStream" id=7]
+[ext_resource path="res://Scenes/DialogueScene9-2.tscn" type="PackedScene" id=8]
 [ext_resource path="res://maze/Victory Point.tscn" type="PackedScene" id=9]
 [ext_resource path="res://Sprites/Tiles-blue.png" type="Texture" id=10]
 [ext_resource path="res://maze/Walls/Block.tres" type="TileSet" id=11]
@@ -94,7 +95,8 @@ tile_data = PoolIntArray( 0, 0, 0, 1, 0, 0, 2, 0, 0, 3, 0, 0, 4, 0, 0, 5, 0, 0, 
 
 [node name="Victory Point" parent="." instance=ExtResource( 9 )]
 position = Vector2( 1968, 318 )
-narrativeVarToSet = "9.2 - Traitor's Crown"
+sceneToLoad = ExtResource( 8 )
+narrativeVarToSet = "FinalLevelFlag"
 
 [node name="start" parent="." instance=ExtResource( 5 )]
 margin_left = -4.0

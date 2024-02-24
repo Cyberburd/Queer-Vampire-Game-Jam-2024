@@ -52,7 +52,66 @@
 			"z_index": 0
 		},
 		{
-			"anchor_id": "anchor-1634488067",
+			"anchor_id": "anchor-1708785550",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1708276857-787",
+			"event_id": "dialogic_012",
+			"value": "true"
+		},
+		{
+			"background": "res://Backgrounds/bunker.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "slide_in_left.gd",
+			"animation_length": 100,
+			"animation_wait": false,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "slide_in_left.gd",
+			"animation_length": 100,
+			"animation_wait": false,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1708005007.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"anchor_id": "",
 			"event_id": "dialogic_016"
 		},
 		{
@@ -249,12 +308,6 @@
 			"event_id": "dialogic_041"
 		},
 		{
-			"character": "character-1707139124.json",
-			"event_id": "dialogic_001",
-			"portrait": "Default",
-			"text": "\"The Attack is going through as planned...\""
-		},
-		{
 			"choice": "\"Initiate a Defensive Stance!\"",
 			"condition": "",
 			"definition": "",
@@ -272,16 +325,22 @@
 			"event_id": "dialogic_041"
 		},
 		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1708785550",
+			"index": 0,
+			"name": "post level 2"
+		},
+		{
 			"character": "character-1707139124.json",
 			"event_id": "dialogic_001",
 			"portrait": "Default",
 			"text": "\"Things look like they are working out!\""
 		},
 		{
-			"event_id": "dialogic_013"
-		},
-		{
-			"character": "character-1708005286.json",
+			"character": "character-1708005007.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "\"Sir, our reinforcements just arrived!\""

@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=2]
+[gd_scene load_steps=20 format=2]
 
 [ext_resource path="res://maze/Victory Point.tscn" type="PackedScene" id=1]
 [ext_resource path="res://maze/mazePlayer.tscn" type="PackedScene" id=2]
@@ -14,6 +14,7 @@
 [ext_resource path="res://maze/Hud.gd" type="Script" id=12]
 [ext_resource path="res://Sprites/empty_heart.png" type="Texture" id=13]
 [ext_resource path="res://Sound/SFX/bombs.mp3" type="AudioStream" id=14]
+[ext_resource path="res://Scenes/DialogueScene1.tscn" type="PackedScene" id=15]
 
 [sub_resource type="StyleBoxFlat" id=7]
 
@@ -52,7 +53,8 @@ tile_data = PoolIntArray( 0, 0, 0, 1, 0, 0, 2, 0, 0, 3, 0, 0, 4, 0, 0, 5, 0, 0, 
 
 [node name="Victory Point" parent="." instance=ExtResource( 1 )]
 position = Vector2( 1968, 185 )
-narrativeVarToSet = "2-Bad Orders"
+sceneToLoad = ExtResource( 15 )
+narrativeVarToSet = "Level1Flag"
 
 [node name="start" parent="." instance=ExtResource( 3 )]
 margin_left = -1.0
