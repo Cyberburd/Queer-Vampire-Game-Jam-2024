@@ -199,7 +199,7 @@
 			"audio_bus": "Master",
 			"event_id": "dialogic_030",
 			"event_name": "AudioEvent",
-			"file": "",
+			"file": "res://Sound/SFX/Shackles.mp3",
 			"volume": 0
 		},
 		{
@@ -430,7 +430,7 @@
 			"audio_bus": "Master",
 			"event_id": "dialogic_030",
 			"event_name": "AudioEvent",
-			"file": "",
+			"file": "res://Sound/SFX/Footsteps + Door Close.mp3",
 			"volume": 0
 		},
 		{

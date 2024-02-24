@@ -9,7 +9,7 @@
 			"audio_bus": "Master",
 			"event_id": "dialogic_030",
 			"event_name": "AudioEvent",
-			"file": "",
+			"file": "res://Sound/SFX/Footsteps.mp3",
 			"volume": 0
 		},
 		{
@@ -106,7 +106,7 @@
 			"audio_bus": "Master",
 			"event_id": "dialogic_030",
 			"event_name": "AudioEvent",
-			"file": "",
+			"file": "res://Sound/SFX/Glass Clink.mp3",
 			"volume": 0
 		},
 		{
@@ -152,7 +152,7 @@
 			"audio_bus": "Master",
 			"event_id": "dialogic_030",
 			"event_name": "AudioEvent",
-			"file": "",
+			"file": "res://Sound/SFX/Thud.mp3",
 			"volume": 0
 		},
 		{
@@ -164,7 +164,7 @@
 			"audio_bus": "Master",
 			"event_id": "dialogic_030",
 			"event_name": "AudioEvent",
-			"file": "",
+			"file": "res://Sound/SFX/Running + Shacles.mp3",
 			"volume": 0
 		},
 		{
@@ -252,7 +252,7 @@
 			"audio_bus": "Master",
 			"event_id": "dialogic_030",
 			"event_name": "AudioEvent",
-			"file": "",
+			"file": "res://Sound/SFX/Heartbeat.mp3",
 			"volume": 0
 		},
 		{
@@ -351,7 +351,7 @@
 			"event_id": "dialogic_031",
 			"event_name": "BackgroundMusic",
 			"fade_length": 1,
-			"file": "",
+			"file": "res://Sound/SFX/Glass Clink + Drinking.mp3",
 			"volume": 0
 		},
 		{
@@ -365,7 +365,7 @@
 			"audio_bus": "Master",
 			"event_id": "dialogic_030",
 			"event_name": "AudioEvent",
-			"file": "",
+			"file": "res://Sound/SFX/Shackles + Bite.mp3",
 			"volume": 0
 		},
 		{
@@ -379,7 +379,7 @@
 			"audio_bus": "Master",
 			"event_id": "dialogic_030",
 			"event_name": "AudioEvent",
-			"file": "",
+			"file": "res://Sound/SFX/Thud + Running + Door Bang.mp3",
 			"volume": 0
 		},
 		{
@@ -431,7 +431,7 @@
 			"audio_bus": "Master",
 			"event_id": "dialogic_030",
 			"event_name": "AudioEvent",
-			"file": "",
+			"file": "res://Sound/SFX/Light Foot Steps.mp3",
 			"volume": 0
 		},
 		{

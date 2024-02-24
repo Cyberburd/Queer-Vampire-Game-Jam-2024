@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Shackles + Bite.mp3-e78e1b92ff0b269eccb4313be42c6a0f.mp3str"
+
+[deps]
+
+source_file="res://Sound/SFX/Shackles + Bite.mp3"
+dest_files=[ "res://.import/Shackles + Bite.mp3-e78e1b92ff0b269eccb4313be42c6a0f.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

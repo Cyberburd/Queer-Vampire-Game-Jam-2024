@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Radio Transmission.mp3-521060e416c64d2d8e186feefccbe511.mp3str"
+
+[deps]
+
+source_file="res://Sound/SFX/Radio Transmission.mp3"
+dest_files=[ "res://.import/Radio Transmission.mp3-521060e416c64d2d8e186feefccbe511.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

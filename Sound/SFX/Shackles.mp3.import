@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Shackles.mp3-cf3a3662a76e68a0a85b47288dd379c8.mp3str"
+
+[deps]
+
+source_file="res://Sound/SFX/Shackles.mp3"
+dest_files=[ "res://.import/Shackles.mp3-cf3a3662a76e68a0a85b47288dd379c8.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -28,7 +28,7 @@
 			"audio_bus": "Master",
 			"event_id": "dialogic_030",
 			"event_name": "AudioEvent",
-			"file": "",
+			"file": "res://Sound/SFX/Radio Static.mp3",
 			"volume": 0
 		},
 		{
@@ -106,8 +106,8 @@
 			"audio_bus": "Master",
 			"event_id": "dialogic_030",
 			"event_name": "AudioEvent",
-			"file": "",
-			"volume": 0
+			"file": "res://Sound/SFX/Footsteps.mp3",
+			"volume": 5
 		},
 		{
 			"animation": "[Default]",
@@ -193,7 +193,7 @@
 			"audio_bus": "Master",
 			"event_id": "dialogic_030",
 			"event_name": "AudioEvent",
-			"file": "",
+			"file": "res://Sound/SFX/Radio Transmission.mp3",
 			"volume": 0
 		},
 		{

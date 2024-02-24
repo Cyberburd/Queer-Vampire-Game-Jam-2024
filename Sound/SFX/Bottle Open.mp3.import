@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Bottle Open.mp3-c77ac80ec1ce712f43189fa62f70a43e.mp3str"
+
+[deps]
+
+source_file="res://Sound/SFX/Bottle Open.mp3"
+dest_files=[ "res://.import/Bottle Open.mp3-c77ac80ec1ce712f43189fa62f70a43e.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

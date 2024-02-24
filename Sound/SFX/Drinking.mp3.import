@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Drinking.mp3-86a872558f7bd7bc70ab2ddf51438fba.mp3str"
+
+[deps]
+
+source_file="res://Sound/SFX/Drinking.mp3"
+dest_files=[ "res://.import/Drinking.mp3-86a872558f7bd7bc70ab2ddf51438fba.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

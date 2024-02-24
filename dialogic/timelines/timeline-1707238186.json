@@ -132,7 +132,7 @@
 			"audio_bus": "Master",
 			"event_id": "dialogic_030",
 			"event_name": "AudioEvent",
-			"file": "",
+			"file": "res://Sound/SFX/Alarm Siren.mp3",
 			"volume": 0
 		},
 		{

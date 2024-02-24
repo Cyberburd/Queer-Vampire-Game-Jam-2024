@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Thud + Running + Door Bang.mp3-10a01b62c85a87657825e8cbb1f0d113.mp3str"
+
+[deps]
+
+source_file="res://Sound/SFX/Thud + Running + Door Bang.mp3"
+dest_files=[ "res://.import/Thud + Running + Door Bang.mp3-10a01b62c85a87657825e8cbb1f0d113.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Belly Growl.mp3-f7bf3985e8438820869cca8a1598cd9a.mp3str"
+
+[deps]
+
+source_file="res://Sound/SFX/Belly Growl.mp3"
+dest_files=[ "res://.import/Belly Growl.mp3-f7bf3985e8438820869cca8a1598cd9a.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

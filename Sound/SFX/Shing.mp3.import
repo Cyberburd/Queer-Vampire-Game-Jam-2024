@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Shing.mp3-8efef9e597e21fc452bbb31ea08ab44a.mp3str"
+
+[deps]
+
+source_file="res://Sound/SFX/Shing.mp3"
+dest_files=[ "res://.import/Shing.mp3-8efef9e597e21fc452bbb31ea08ab44a.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
