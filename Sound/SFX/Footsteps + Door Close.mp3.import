@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Footsteps + Door Close.mp3-41e68830976d567a424c0b2f8d217427.mp3str"
+
+[deps]
+
+source_file="res://Sound/SFX/Footsteps + Door Close.mp3"
+dest_files=[ "res://.import/Footsteps + Door Close.mp3-41e68830976d567a424c0b2f8d217427.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

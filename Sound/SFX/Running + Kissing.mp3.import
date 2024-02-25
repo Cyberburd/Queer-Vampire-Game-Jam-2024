@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Running + Kissing.mp3-65b2c4700cffafa36607d1a160f86bd1.mp3str"
+
+[deps]
+
+source_file="res://Sound/SFX/Running + Kissing.mp3"
+dest_files=[ "res://.import/Running + Kissing.mp3-65b2c4700cffafa36607d1a160f86bd1.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

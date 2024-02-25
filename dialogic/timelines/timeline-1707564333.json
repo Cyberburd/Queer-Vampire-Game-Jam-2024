@@ -42,7 +42,7 @@
 			"audio_bus": "Master",
 			"event_id": "dialogic_030",
 			"event_name": "AudioEvent",
-			"file": "",
+			"file": "res://Sound/SFX/Light Foot Steps.mp3",
 			"volume": 0
 		},
 		{
@@ -70,7 +70,7 @@
 			"audio_bus": "Master",
 			"event_id": "dialogic_030",
 			"event_name": "AudioEvent",
-			"file": "",
+			"file": "res://Sound/SFX/Shackles.mp3",
 			"volume": 0
 		},
 		{
@@ -215,7 +215,7 @@
 			"audio_bus": "Master",
 			"event_id": "dialogic_030",
 			"event_name": "AudioEvent",
-			"file": "",
+			"file": "res://Sound/SFX/Belly Growl.mp3",
 			"volume": 0
 		},
 		{
@@ -303,7 +303,7 @@
 			"audio_bus": "Master",
 			"event_id": "dialogic_030",
 			"event_name": "AudioEvent",
-			"file": "",
+			"file": "res://Sound/SFX/Bottle Open.mp3",
 			"volume": 0
 		},
 		{

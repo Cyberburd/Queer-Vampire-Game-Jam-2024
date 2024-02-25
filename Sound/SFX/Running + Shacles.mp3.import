@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Running + Shacles.mp3-da56add48cbb9bd2c265fcf2ff899685.mp3str"
+
+[deps]
+
+source_file="res://Sound/SFX/Running + Shacles.mp3"
+dest_files=[ "res://.import/Running + Shacles.mp3-da56add48cbb9bd2c265fcf2ff899685.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

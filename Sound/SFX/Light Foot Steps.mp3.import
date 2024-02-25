@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Light Foot Steps.mp3-44b1ae651d0bfda397543464e9aca13f.mp3str"
+
+[deps]
+
+source_file="res://Sound/SFX/Light Foot Steps.mp3"
+dest_files=[ "res://.import/Light Foot Steps.mp3-44b1ae651d0bfda397543464e9aca13f.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

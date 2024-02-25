@@ -329,7 +329,7 @@
 			"audio_bus": "Master",
 			"event_id": "dialogic_030",
 			"event_name": "AudioEvent",
-			"file": "",
+			"file": "res://Sound/SFX/Whoosh.mp3",
 			"volume": 0
 		},
 		{
@@ -497,7 +497,7 @@
 			"audio_bus": "Master",
 			"event_id": "dialogic_030",
 			"event_name": "AudioEvent",
-			"file": "",
+			"file": "res://Sound/SFX/Glass Clink.mp3",
 			"volume": 0
 		},
 		{
@@ -511,7 +511,7 @@
 			"audio_bus": "Master",
 			"event_id": "dialogic_030",
 			"event_name": "AudioEvent",
-			"file": "",
+			"file": "res://Sound/SFX/Thud.mp3",
 			"volume": 0
 		},
 		{
@@ -614,7 +614,7 @@
 			"audio_bus": "Master",
 			"event_id": "dialogic_030",
 			"event_name": "AudioEvent",
-			"file": "",
+			"file": "res://Sound/SFX/Shuffle.mp3",
 			"volume": 0
 		},
 		{
@@ -767,7 +767,7 @@
 			"audio_bus": "Master",
 			"event_id": "dialogic_030",
 			"event_name": "AudioEvent",
-			"file": "",
+			"file": "res://Sound/SFX/Running + Kissing.mp3",
 			"volume": 0
 		},
 		{
@@ -793,7 +793,7 @@
 			"audio_bus": "Master",
 			"event_id": "dialogic_030",
 			"event_name": "AudioEvent",
-			"file": "",
+			"file": "res://Sound/SFX/Cheering + Running.mp3",
 			"volume": 0
 		},
 		{

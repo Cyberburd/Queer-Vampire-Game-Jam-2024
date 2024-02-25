@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Shuffle.mp3-1112c285003bf1d378457b866a051b7d.mp3str"
+
+[deps]
+
+source_file="res://Sound/SFX/Shuffle.mp3"
+dest_files=[ "res://.import/Shuffle.mp3-1112c285003bf1d378457b866a051b7d.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

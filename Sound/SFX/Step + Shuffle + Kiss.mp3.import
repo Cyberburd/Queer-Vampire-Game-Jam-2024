@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Step + Shuffle + Kiss.mp3-f553872edbf4a7682ac0f5bf5da3c12f.mp3str"
+
+[deps]
+
+source_file="res://Sound/SFX/Step + Shuffle + Kiss.mp3"
+dest_files=[ "res://.import/Step + Shuffle + Kiss.mp3-f553872edbf4a7682ac0f5bf5da3c12f.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

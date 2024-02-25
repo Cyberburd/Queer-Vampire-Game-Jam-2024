@@ -185,7 +185,7 @@
 			"audio_bus": "Master",
 			"event_id": "dialogic_030",
 			"event_name": "AudioEvent",
-			"file": "",
+			"file": "res://Sound/SFX/Step + Shuffle + Kiss.mp3",
 			"volume": 0
 		},
 		{
@@ -223,7 +223,7 @@
 			"audio_bus": "Master",
 			"event_id": "dialogic_030",
 			"event_name": "AudioEvent",
-			"file": "",
+			"file": "res://Sound/SFX/Bite.mp3",
 			"volume": 0
 		},
 		{
@@ -419,7 +419,7 @@
 			"audio_bus": "Master",
 			"event_id": "dialogic_030",
 			"event_name": "AudioEvent",
-			"file": "",
+			"file": "res://Sound/SFX/Running.mp3",
 			"volume": 0
 		},
 		{
@@ -542,7 +542,7 @@
 			"audio_bus": "Master",
 			"event_id": "dialogic_030",
 			"event_name": "AudioEvent",
-			"file": "",
+			"file": "res://Sound/SFX/Footsteps.mp3",
 			"volume": 0
 		},
 		{
