@@ -20,6 +20,10 @@
 			"value": "true"
 		},
 		{
+			"background": "res://Backgrounds/dante's_room.png",
+			"event_id": "dialogic_021"
+		},
+		{
 			"anchor_id": "anchor-1708277674",
 			"event_id": "dialogic_016"
 		},

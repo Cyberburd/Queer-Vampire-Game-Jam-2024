@@ -346,6 +346,10 @@
 			"text": "\"I have a surprise for you! This is a 1973 O- reserve. Rested for 30 minutes after the bottle was opened...-\""
 		},
 		{
+			"background": "res://Backgrounds/bunker_prison_shaky.png",
+			"event_id": "dialogic_021"
+		},
+		{
 			"character": "character-1707139124.json",
 			"event_id": "dialogic_001",
 			"portrait": "Worried",

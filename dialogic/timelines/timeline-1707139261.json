@@ -1,6 +1,11 @@
 {
 	"events": [
 		{
+			"background": "res://Backgrounds/black_screen.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 0
+		},
+		{
 			"condition": "",
 			"definition": "1708276765-648",
 			"event_id": "dialogic_012",

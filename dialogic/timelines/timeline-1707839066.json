@@ -713,6 +713,10 @@
 			"text": "\"... He won't listen at his state... But I have to do this!\""
 		},
 		{
+			"background": "res://Backgrounds/bunker_prison_red.png",
+			"event_id": "dialogic_021"
+		},
+		{
 			"character": "character-1707139124.json",
 			"event_id": "dialogic_001",
 			"portrait": "Angry",
