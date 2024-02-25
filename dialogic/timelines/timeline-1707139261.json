@@ -152,15 +152,6 @@
 			"z_index": 0
 		},
 		{
-			"character": "character-1707139124.json",
-			"event_id": "dialogic_010",
-			"options": [
-
-			],
-			"portrait": "",
-			"question": ""
-		},
-		{
 			"audio": "play",
 			"audio_bus": "Master",
 			"event_id": "dialogic_030",
@@ -176,6 +167,15 @@
 			"fade_length": 1,
 			"file": "res://Sound/Music/Battle Moment.ogg",
 			"volume": 0
+		},
+		{
+			"character": "character-1707139124.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
 		},
 		{
 			"choice": "WE ARE GOING TO WAR",

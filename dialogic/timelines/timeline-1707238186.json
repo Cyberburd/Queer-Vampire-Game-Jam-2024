@@ -279,6 +279,14 @@
 			"text": "\"Everything is ready, Sir! The enemy is already in the battlefield. We're ready for your orders!\""
 		},
 		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
 			"character": "character-1707139124.json",
 			"event_id": "dialogic_010",
 			"options": [
@@ -286,14 +294,6 @@
 			],
 			"portrait": "",
 			"question": ""
-		},
-		{
-			"audio": "play",
-			"audio_bus": "Master",
-			"event_id": "dialogic_030",
-			"event_name": "AudioEvent",
-			"file": "",
-			"volume": 0
 		},
 		{
 			"choice": "\"Initiate a Tactical Manoeuvre!\"",
