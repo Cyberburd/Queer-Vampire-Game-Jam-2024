@@ -7,7 +7,7 @@
 			"value": "true"
 		},
 		{
-			"background": "res://Backgrounds/dante's_room.png",
+			"background": "res://Backgrounds/dante's_room_bright.png",
 			"event_id": "dialogic_021"
 		},
 		{
@@ -472,6 +472,10 @@
 			"fade_length": 1,
 			"file": "",
 			"volume": 0
+		},
+		{
+			"background": "res://Backgrounds/dante's_room_bright.png",
+			"event_id": "dialogic_021"
 		},
 		{
 			"audio": "play",
