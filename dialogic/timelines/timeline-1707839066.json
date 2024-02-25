@@ -5,15 +5,6 @@
 			"event_id": "dialogic_021"
 		},
 		{
-			"audio_bus": "Master",
-			"background-music": "play",
-			"event_id": "dialogic_031",
-			"event_name": "BackgroundMusic",
-			"fade_length": 1,
-			"file": "",
-			"volume": 0
-		},
-		{
 			"background": "res://Backgrounds/bunker_prison.png",
 			"event_id": "dialogic_021"
 		},
@@ -42,14 +33,6 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "\"Another day...for how long are they going to keep me here... Will Dante be able to come save me... He must be furious...\""
-		},
-		{
-			"audio": "play",
-			"audio_bus": "Master",
-			"event_id": "dialogic_030",
-			"event_name": "AudioEvent",
-			"file": "",
-			"volume": 0
 		},
 		{
 			"animation": "[Default]",
@@ -142,6 +125,15 @@
 			"event_id": "dialogic_013"
 		},
 		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://Sound/Music/Lord Neculai the Lonely Vampire.ogg",
+			"volume": 0
+		},
+		{
 			"character": "character-1707139047.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -170,15 +162,6 @@
 			"event_id": "dialogic_001",
 			"portrait": "Angry",
 			"text": "\"I can't stand this anymore. Please, it's really getting hard to control myself... Please, just do it! Just bite me!\""
-		},
-		{
-			"audio_bus": "Master",
-			"background-music": "play",
-			"event_id": "dialogic_031",
-			"event_name": "BackgroundMusic",
-			"fade_length": 1,
-			"file": "",
-			"volume": 0
 		},
 		{
 			"audio": "play",
@@ -217,6 +200,14 @@
 		{
 			"background": "res://Backgrounds/prison_kiss.png",
 			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
 		},
 		{
 			"audio": "play",
@@ -296,6 +287,15 @@
 			},
 			"type": 0,
 			"z_index": 0
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
 		},
 		{
 			"character": "character-1707139124.json",
@@ -429,6 +429,15 @@
 			"text": "\"Wait... but he needs help...\""
 		},
 		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://Sound/Music/Dark Lord.ogg",
+			"volume": 0
+		},
+		{
 			"character": "character-1707139124.json",
 			"event_id": "dialogic_001",
 			"portrait": "Default",
@@ -535,6 +544,15 @@
 			"text": "\"You're going to be okay... I'm here, I'll take care of you...\""
 		},
 		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
 			"event_id": "dialogic_013"
 		},
 		{
@@ -543,6 +561,15 @@
 			"event_id": "dialogic_030",
 			"event_name": "AudioEvent",
 			"file": "res://Sound/SFX/Footsteps.mp3",
+			"volume": 0
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://Sound/Music/Neculai's Shadows.ogg",
 			"volume": 0
 		},
 		{
@@ -696,6 +723,23 @@
 			"event_id": "dialogic_001",
 			"portrait": "Angry",
 			"text": "\"The sky above will fall and the stars will sing for those in need. To those that need to be saved from the  devils wicked ways...\""
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
 		},
 		{
 			"change_timeline": "timeline-1707841131.json",

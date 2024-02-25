@@ -5,15 +5,6 @@
 			"event_id": "dialogic_021"
 		},
 		{
-			"audio_bus": "Master",
-			"background-music": "play",
-			"event_id": "dialogic_031",
-			"event_name": "BackgroundMusic",
-			"fade_length": 1,
-			"file": "",
-			"volume": 0
-		},
-		{
 			"background": "res://Backgrounds/bunker_prison.png",
 			"event_id": "dialogic_021"
 		},
@@ -70,6 +61,14 @@
 			"audio_bus": "Master",
 			"event_id": "dialogic_030",
 			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
 			"file": "res://Sound/SFX/Shackles.mp3",
 			"volume": 0
 		},
@@ -78,6 +77,14 @@
 			"event_id": "dialogic_001",
 			"portrait": "Evil",
 			"text": "\"You know, even though you are a Monster you sleep like a sweet angel... Your face isn't bad ether for a Demonic Parasite...\""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
 		},
 		{
 			"character": "character-1707139124.json",
@@ -155,6 +162,15 @@
 			"text": "\"Ahah! You're just funny to mess with!\""
 		},
 		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://Sound/Music/A Strange Clown.ogg",
+			"volume": 0
+		},
+		{
 			"character": "character-1707139124.json",
 			"event_id": "dialogic_001",
 			"portrait": "Default",
@@ -205,6 +221,15 @@
 			"text": "\"Do you think you will be able to break me?...\" "
 		},
 		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
 			"character": "character-1707139047.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -229,6 +254,14 @@
 			"event_id": "dialogic_001",
 			"portrait": "Evil",
 			"text": "\"Aww... The little prisoner is hungry?...\""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
 		},
 		{
 			"character": "character-1707139124.json",
@@ -319,6 +352,14 @@
 			"text": "\"STOP! Take that away from me, I wont accept anything from you!\""
 		},
 		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
 			"character": "character-1707139047.json",
 			"event_id": "dialogic_001",
 			"portrait": "Default",
@@ -329,6 +370,15 @@
 			"event_id": "dialogic_001",
 			"portrait": "Angry",
 			"text": "\"What you mean what brought me here? You did! You caught me and looked me up! You...\""
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://Sound/Music/Dark Pub.ogg",
+			"volume": 0
 		},
 		{
 			"character": "character-1707139047.json",
@@ -379,6 +429,15 @@
 			"event_id": "dialogic_001",
 			"portrait": "Worried",
 			"text": "\"I'm so hungry... I'm getting weak...\""
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
 		},
 		{
 			"change_timeline": "timeline-1707564990.json",

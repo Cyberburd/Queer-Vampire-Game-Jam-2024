@@ -216,6 +216,15 @@
 			"z_index": 0
 		},
 		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://Sound/Music/Gloomy Factory.ogg",
+			"volume": 0
+		},
+		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -279,6 +288,14 @@
 			"question": ""
 		},
 		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
 			"choice": "\"Initiate a Tactical Manoeuvre!\"",
 			"condition": "",
 			"definition": "",
@@ -332,6 +349,15 @@
 			"id": "anchor-1708785550",
 			"index": 0,
 			"name": "post level 2"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
 		},
 		{
 			"character": "character-1707139124.json",
@@ -415,6 +441,15 @@
 			"event_id": "dialogic_001",
 			"portrait": "Angry",
 			"text": "Second and Third group, what is your status?\" "
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://Sound/Music/Battle Moment.ogg",
+			"volume": 0
 		},
 		{
 			"character": "character-1708005167.json",
@@ -521,6 +556,15 @@
 		},
 		{
 			"event_id": "dialogic_013"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
 		},
 		{
 			"change_scene": "res://maze/mazeLevels/2 - Bad Orders Level2-4.tscn",

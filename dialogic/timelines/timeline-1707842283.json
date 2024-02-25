@@ -105,6 +105,15 @@
 			"z_index": 0
 		},
 		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://Sound/Music/High Society Waltz.ogg",
+			"volume": 0
+		},
+		{
 			"character": "character-1708005112.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -337,6 +346,15 @@
 			"text": "\"But- ... And what will be of us? What will it be of everything?\""
 		},
 		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://Sound/Music/Lord Neculai the Lonely Vampire.ogg",
+			"volume": 0
+		},
+		{
 			"character": "character-1707139107.json",
 			"event_id": "dialogic_001",
 			"portrait": "Happy",
@@ -447,6 +465,15 @@
 			"text": "\"I'll do anything for you. I love you, ever since you made part of our kind... Ever since you became mine...\""
 		},
 		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
 			"audio": "play",
 			"audio_bus": "Master",
 			"event_id": "dialogic_030",
@@ -492,6 +519,14 @@
 			"z_index": 0
 		},
 		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
 			"choice": "\"I'm all yours...\"",
 			"condition": "",
 			"definition": "",
@@ -518,6 +553,14 @@
 			},
 			"type": 2,
 			"z_index": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
 		},
 		{
 			"event_id": "dialogic_013"
@@ -685,6 +728,14 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "[i]For the last Fear is the only bond left to share. Now they shall shine forever, inside this darkness."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
 		},
 		{
 			"character": "",

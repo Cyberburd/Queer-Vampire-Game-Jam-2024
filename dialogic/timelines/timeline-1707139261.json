@@ -161,6 +161,23 @@
 			"question": ""
 		},
 		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://Sound/Music/Battle Moment.ogg",
+			"volume": 0
+		},
+		{
 			"choice": "WE ARE GOING TO WAR",
 			"condition": "",
 			"definition": "",
@@ -234,6 +251,14 @@
 			"event_id": "dialogic_001",
 			"portrait": "Happy",
 			"text": "\"And thank you for letting me know directly...\nI know I can always count on you, Nathalian...\""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
 		},
 		{
 			"choice": "CALL EVERYONE!",
@@ -328,6 +353,15 @@
 		},
 		{
 			"event_id": "dialogic_013"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
 		},
 		{
 			"character": "character-1707139124.json",

@@ -61,6 +61,15 @@
 			"z_index": 0
 		},
 		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://Sound/Music/Gloomy Factory.ogg",
+			"volume": 0
+		},
+		{
 			"character": "character-1707139047.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -227,6 +236,14 @@
 			"text": "\"IS THIS A JOKE TO YOU?!!\""
 		},
 		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
 			"character": "character-1707139047.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -264,6 +281,15 @@
 		},
 		{
 			"event_id": "dialogic_013"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
 		},
 		{
 			"character": "character-1707139124.json",
@@ -356,6 +382,15 @@
 			"event_id": "dialogic_001",
 			"portrait": "Evil",
 			"text": " \"How about we start?\""
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://Sound/Music/A Strange Clown.ogg",
+			"volume": 0
 		},
 		{
 			"character": "character-1707139124.json",
@@ -458,6 +493,23 @@
 			"event_id": "dialogic_001",
 			"portrait": "Worried",
 			"text": "\"it's cold... I'm so hungry...\" "
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
 		},
 		{
 			"change_timeline": "timeline-1707564333.json",
