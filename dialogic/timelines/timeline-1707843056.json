@@ -947,7 +947,7 @@
 			"text": "[i]The End"
 		},
 		{
-			"change_scene": "",
+			"change_scene": "res://Scenes/EndScreen.tscn",
 			"event_id": "dialogic_041"
 		}
 	],

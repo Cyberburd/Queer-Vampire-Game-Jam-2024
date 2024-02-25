@@ -380,7 +380,7 @@
 		{
 			"animation": "[Default]",
 			"animation_length": 0,
-			"animation_wait": true,
+			"animation_wait": false,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
 			"character": "character-1708005007.json",
