@@ -944,7 +944,11 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "[b][center]The End"
+			"text": "[i]The End"
+		},
+		{
+			"change_scene": "",
+			"event_id": "dialogic_041"
 		}
 	],
 	"metadata": {

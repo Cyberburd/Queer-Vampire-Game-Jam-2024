@@ -12,6 +12,8 @@ func _on_NewGameButton_button_up():
 	Dialogic.set_variable("Level5Flag", "false")
 	Dialogic.set_variable("Level6Flag", "false")
 	Dialogic.set_variable("FinalLevelFlag", "false")
+	
+	#needed code to reload mini-game player health
 	print("reloaded lives")
 	MazeGlobal.lives = MazeGlobal.max_lives
 
