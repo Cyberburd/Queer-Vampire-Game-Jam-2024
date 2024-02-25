@@ -81,7 +81,37 @@ _global_script_class_icons={
 [application]
 
 config/name="Moonlight Desires"
+config/description="Commander Nathalian Bloodmoon and his soldiers are in the middle of a war. What he wasn't expecting was the future battle he was about to face against his feelings and desires! 
+
+Between his long-time combat partner and his newly met human enemy, Nathalian has to decide what his vampiric heart should follow...
+
+Moonlight Desires is an intense Boys' Love Visual Novel where you'll keep learning more about its story and characters as you progress through each level of our in-game mazes.
+
+Let yourself be immersed in this epic romance game!
+
+Warnings: Depictions of Violence; Blood;  Sexual Content
+
+Team:
+
+    Writers:
+        Mariana Sousa
+        Sofia Ribeiro
+    Programmers:
+        Carlos Marques
+        David Coelho
+        Diogo Mendonça
+    Artists:
+        Beatriz Lopes
+        Mariana Sousa
+        Sofia Ribeiro
+    Sound and Music: 
+        David Coelho
+        Carlos Marques
+
+
+We are part of our college game development group, Game Dev Técnico, which can be found here on Itch.io, and on Facebook and Twitter! "
 run/main_scene="res://Scenes/TitleScreen.tscn"
+boot_splash/image="res://Backgrounds/gameCover.PNG"
 config/icon="res://icon.png"
 
 [autoload]
@@ -93,6 +123,9 @@ MazeGlobal="*res://mazeGlobal.gd"
 
 window/size/width=1920
 window/size/height=1080
+window/size/borderless=true
+window/size/fullscreen=true
+mouse_cursor/custom_image="res://Sprites/gigant_bomb3_32x32.png"
 window/stretch/mode="viewport"
 window/stretch/aspect="keep"
 
