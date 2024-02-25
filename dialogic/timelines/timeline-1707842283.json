@@ -91,7 +91,7 @@
 			"change_z_index": false,
 			"character": "character-1708005112.json",
 			"event_id": "dialogic_002",
-			"mirror_portrait": false,
+			"mirror_portrait": true,
 			"portrait": "Default",
 			"portrait_definition": "",
 			"position": {
@@ -203,7 +203,13 @@
 			"character": "character-1708005112.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "\"You red-eyed blood sucker... Inside a human bunker for months and probably giving out our information... Why wouldn't you kill them all? We are the superior species and yet, you are denying yourself of your own nature!...\""
+			"text": "\"You red-eyed blood sucker... Inside a human bunker for months and probably giving out our information...\""
+		},
+		{
+			"character": "character-1708005112.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Why wouldn't you kill them all? We are the superior species and yet, you are denying yourself of your own nature!...\""
 		},
 		{
 			"character": "character-1708005112.json",
