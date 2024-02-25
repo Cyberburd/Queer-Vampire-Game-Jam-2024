@@ -355,15 +355,6 @@
 			"event_id": "dialogic_013"
 		},
 		{
-			"audio_bus": "Master",
-			"background-music": "play",
-			"event_id": "dialogic_031",
-			"event_name": "BackgroundMusic",
-			"fade_length": 1,
-			"file": "",
-			"volume": 0
-		},
-		{
 			"character": "character-1707139124.json",
 			"event_id": "dialogic_001",
 			"portrait": "Shy",
@@ -447,6 +438,15 @@
 		{
 			"change_scene": "res://maze/mazeLevels/1- Radio Level1-1.tscn",
 			"event_id": "dialogic_041"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
 		},
 		{
 			"event_id": "dialogic_015",
