@@ -11,7 +11,7 @@
 			"event_id": "dialogic_021"
 		},
 		{
-			"animation": "slide_in_left.gd",
+			"animation": "[Default]",
 			"animation_length": 100,
 			"animation_wait": false,
 			"change_mirror_portrait": false,
@@ -69,7 +69,7 @@
 			"event_id": "dialogic_021"
 		},
 		{
-			"animation": "slide_in_left.gd",
+			"animation": "[Default]",
 			"animation_length": 100,
 			"animation_wait": false,
 			"change_mirror_portrait": false,
@@ -90,7 +90,7 @@
 			"z_index": 0
 		},
 		{
-			"animation": "slide_in_left.gd",
+			"animation": "[Default]",
 			"animation_length": 100,
 			"animation_wait": false,
 			"change_mirror_portrait": false,
